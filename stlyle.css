@@ -1,0 +1,303 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: pointer 30px black;
+}
+#f3e8d6 amarelo estranho
+
+#bb8e75 marrom
+
+
+#h-a{
+   background: white;
+    width: 300px !important;
+    height: 50px;
+    bottom: 200px;
+    
+    text-decoration: none;
+}
+#h-a img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 1110px;
+    bottom: 150px;
+}
+#h-a p{
+    position: relative;
+     left: 1160px;
+     width: 200px;
+     height: 30px;
+    bottom: 215px;
+    text-decoration: none;
+   
+    color: black;
+    font-weight: 700;
+    font-size: 25px;
+}
+#header-h2{
+    position: relative;
+   left: 40%;
+  font-size: 20px;
+  bottom: 75px;
+}
+.crp{
+    position: relative;
+    color: black;
+	font-family: "Segoe UI";
+    left: 120px;
+    bottom: 150px;
+    font-size: 25px;
+}
+.h1-psi{
+    position: relative;
+    left: 120px;
+    bottom: 190px;
+    font-size: 50px;
+    font-family: "Segoe UI";
+    font-weight: 700;
+    color: #9c562a;
+}
+.h3-ter{
+    position: relative;
+    left: 120px;
+    font-size: 20px;
+    bottom: 225px;
+    font-family: "Segoe UI";
+    font-weight: 700;
+}
+.p-age{
+    position: relative;
+    left: 120px;
+    font-size: 18px;
+    bottom: 240px;
+    font-family: "Segoe UI";
+}
+.list-p{
+    position: relative;
+    left: 120px;
+    font-size: 18px;
+    bottom: 240px;
+    font-family: "Segoe UI";
+    
+}
+
+.plano-fundo{
+   position: relative;
+    width: 40%;
+    height: 450px;
+    left: 3%;
+    bottom: 13%;
+  
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.whats{
+    position: relative;
+    top: 10px;
+left: -30px;
+
+}
+.agende-whatsapp{
+    position: relative;
+    width: 350px;
+    height: 60px;
+    left: 130px;
+    font-size: 18px;
+    bottom: 240px;
+    border-radius: 40px;
+    
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+.agende-whatsapp:hover{
+
+   
+    background: #29A71A;
+    bottom: 250px;
+}
+.agende-whatsapp span:hover {
+    position: relative;
+ 
+    font-size: 28px;
+    left: 10px;
+    color:  #FFFFFF;
+}
+.ele-a{
+    position: relative;
+    top: 8px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    
+}
+.agende span{
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    color: #9c562a;
+    font-size: 27px;
+    text-decoration: white;
+    font-family: "Segoe UI";
+    font-weight: 750;
+}
+.container {
+    position: relative;
+    background: #f3e8d6;
+    height: 630px;
+    width: 101%;
+    left: -1%;
+  }
+  
+  .foto-principal {
+    
+    width: 43%;
+    left: 200px;
+    height: 500px;
+    position: relative;
+    z-index: 1;
+  }
+  .imgsEli{
+ position: relative;
+ top: 20px;
+ left: 47%;
+border-radius: 20px;
+ 
+ width: 40%;
+ height: 600px;
+  }
+  
+  .pri {
+    position: absolute;
+    bottom: 800px;
+    left: -7%;
+    
+    transform: translateX(-50%);
+   
+    height: 500px;
+    /* Exemplo de cor de fundo */
+    z-index: 2;
+  }
+  .blocobranco{
+    position: relative;
+    background: #f3e8d6;
+    border-radius: 20px;
+
+    width: 38%;
+    height: 430px;
+    bottom: 500px;
+    left: 7%;
+    border: 1px solid #9c562a;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+
+  }
+  
+
+.tipo-consulta{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    width: 101%;
+    left: -1%;
+}
+.consultas{
+    position: relative;
+    top: 30px;
+    border-radius: 20px;
+    left: 100px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+    width: 36%;
+    height: 650px;
+    background: #f3e8d6;
+}
+.consultas:hover{
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    width: 38%;
+    height: 670px;
+    left: 95px;
+}
+s
+.consultas img{
+    position: relative;
+ 
+  border-radius: 20px;
+}
+.consultas h1{
+    position: relative;
+    left: 40px;
+    font-size: 40px;
+    bottom: 20px;
+    color: #9c562a;
+    font-weight: 700;
+}
+.consultas p{
+    position: relative;
+    width: 320px;
+    left: 40px;
+    bottom: 35px;
+    font-size: 20px;
+}
+.con{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    width: 300px;
+    left: 25px;
+    bottom: 50px;
+    background: whitesmoke;
+    border-radius: 30px;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.imgcon1{
+    
+    position: relative;
+     left: 15px;
+     top: 4px;
+     
+}
+
+.cons:hover{
+    background: #f3e8d6;
+    box-shadow: none;
+    border: 1px solid whitesmoke;
+}
+.con2{
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    width: 300px;
+    left: 25px;
+    bottom: -40px;
+    background: whitesmoke;
+    border-radius: 30px;
+}
+.con2 img{
+    position: relative;
+    left: 15px; 
+    
+    top: 4px;
+}
+.consultas span{
+    position: relative;
+    font-size:40px;
+    left: 30px;
+    font-family: "Arial";
+    color: #9c562a;
+    font-weight: 700;
+}
+.consultas a img{
+    width: 40px;
+    height: 40px;
+}
+corretar os erros do botao,do card!!
