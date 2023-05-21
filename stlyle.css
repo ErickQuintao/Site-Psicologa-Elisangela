@@ -520,53 +520,15 @@ s
     border: 1px solid black;
     border-radius: 20px;
     background: white;
+    
 }
 .carousel-item img{
-    position: relative;
-    width: 50px !important;
-    top: 15px;
-    left: 10px;
-}
-.carousel-item img:hover{
-    width: 60px !important;
-}
-.carousel-item h3{
-    position: relative;
-    left: 70px;
-    bottom: 25px;
-    font-size: 20px !important;
-}
-.carousel-item h4{
-    position: relative;
-    font-size: 10px;
-    left: 100px;
-    bottom: 30px;
-}
-.carousel-item p{
-    position: relative;
-    width: 95%;
-    left: 10px;
-}
-.star{
-    position: relative;
-    bottom: 20px;
-    width: 200px;
-    height: 30px;
-    border: 1px soolid black;
-}
-.star img{
-    
-    width: 30px !important;
-    height: 30px;
-    color: yellow;
-}
-.carousel-control-prev{
-    position: relative;
-    right: 20px !important;
-    top: 20px !important;
+    width: 250px !important;
+    height: 290px;
+    border-radius: 20px;
 }
 .carousel-inner{
-    height: 600px;
+    height: 400px;
 }
 /*  #f3e8d6 amarelo estranho
 
