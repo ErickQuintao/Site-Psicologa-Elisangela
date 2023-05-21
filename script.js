@@ -1,30 +1,33 @@
-var myIndex = 0;
-carousel();
+const sliderItems = Array.from(document.querySelectorAll('.cont'));
+const prevButton = document.getElementById('prev-button');
+const nextButton = document.getElementById('next-button');
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("carousel-item");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 3000);    
+let currentSlide = 0;
+
+function hideSlider() {
+  sliderItems.forEach(item => {
+    item.classList.remove('on');
+  });
 }
-const productContainers = [...document.querySelectorAll('.carousel-inner')];
-const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-const preBtn = [...document.querySelectorAll('.pre-btn')];
 
-productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
+function showSlider() {
+  sliderItems[currentSlide].classList.add('on');
+}
 
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
+function nextSlider() {
+  hideSlider();
+  currentSlide = (currentSlide + 1) % sliderItems.length;
+  showSlider();
+}
 
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
+function prevSlider() {
+  hideSlider();
+  currentSlide = (currentSlide - 1 + sliderItems.length) % sliderItems.length;
+  showSlider();
+}
+
+nextButton.addEventListener('click', nextSlider);
+prevButton.addEventListener('click', prevSlider);
+
+hideSlider();
+showSlider();

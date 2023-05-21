@@ -512,24 +512,75 @@ s
     top: 830px;
 }
 
-.carousel-item{ 
-    width: 250px !important;
-    height: 290px;
-    top: 50px;
-    left: 30px;
-    border: 1px solid black;
-    border-radius: 20px;
-    background: white;
+
+
+.container-main{
+    position: relative;
+    top: 840px;
+    background: #f3e8d6;
+   height: 300px;
+}
+
+.cont{
+    opacity: 0;
+    transition: opacity .2s;
+    width: 100%;
+        
+    position: absolute;
+}
+.container-slider {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
     
-}
-.carousel-item img{
-    width: 250px !important;
-    height: 290px;
-    border-radius: 20px;
-}
-.carousel-inner{
-    height: 400px;
-}
+    min-height: 100vh;
+
+  }
+  
+  .container-images {
+ 
+    width: 100%;
+  }
+  
+  .slider {
+ position: relative;
+     top: 20px;
+    width: 330px;
+height: 270PX;
+background: #F9F9F9;
+    border-radius: 10px;
+    left: 0px;
+  }
+
+  .on {
+    opacity: 1;
+  }
+ 
+  #prev-button, #next-button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    
+    background-color: transparent;
+    cursor: pointer;
+  }
+
+  #prev-button img, #next-button img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  #prev-button {
+    position: relative;
+    top: 150px;
+    transform: rotate(180deg);
+  }
+ #next-button{
+    position: absolute;
+    top: 150px;
+    left: 1045px;
+  
+ }
 /*  #f3e8d6 amarelo estranho
 
 #bb8e75 marrom  */
