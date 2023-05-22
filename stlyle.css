@@ -20,14 +20,14 @@ body{
     width: 40px;
     height: 40px;
     left: 850px;
-    bottom: 150px;
+    bottom: 125px;
 }
 #h-a p{
     position: relative;
      left: 900px;
      width: 200px;
      height: 30px;
-    bottom: 215px;
+    bottom: 165px;
     text-decoration: none;
    
     color: black;
@@ -38,7 +38,7 @@ body{
     position: relative;
    left: 40%;
   font-size: 20px;
-  bottom: 75px;
+  bottom: 60px;
 }
 .crp{
     position: relative;
@@ -143,8 +143,9 @@ left: -30px;
     position: relative;
     background: #f3e8d6;
     height: 630px;
-    width: 101%;
-    left: -1%;
+    width: 100%;
+    
+   
   }
   
   .foto-principal {
@@ -234,10 +235,7 @@ s
     color: #9c562a;
     font-weight: 700;
 }
-.consultas:hover{
-    font-weight: 800;
-    color: black;
-}
+
 .consultas p{
     position: relative;
     width: 320px;
