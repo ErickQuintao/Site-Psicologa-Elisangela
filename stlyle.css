@@ -3,6 +3,9 @@ body{
     height: 100%;
     overflow-x: hidden;
     overflow-y: pointer 30px black;
+    margin: 0;
+    padding: 0;
+  
 }
 
 
@@ -141,6 +144,7 @@ left: -30px;
 }
 .container {
     position: relative;
+    
     background: #f3e8d6;
     height: 630px;
     width: 100%;
@@ -224,24 +228,24 @@ border-radius: 20px;
 s
 .consultas img{
     position: relative;
-
+  
   border-radius: 20px;
 }
 .consultas h1{
     position: relative;
-    left: 40px;
+    left: 10px;
     font-size: 40px;
-    bottom: 20px;
+    bottom: 5px;
     color: #9c562a;
     font-weight: 700;
 }
 
 .consultas p{
     position: relative;
-    width: 320px;
-    left: 40px;
-    bottom: 35px;
-    font-size: 20px;
+    width: 340px;
+    left: 30px;
+    bottom: 20px;
+    font-size: 18px;
 }
 .con{
     position: relative;
@@ -261,11 +265,11 @@ s
     
     position: relative;
      left: 15px;
-     top: 4px;
+     top: -10px;
      border-radius: 20PX;
 }
-.imgcon2{
-    border-radius: 20px;
+.cons{
+    top: -20px;
 }
 .cons:hover{
     background: #f3e8d6;
@@ -273,6 +277,7 @@ s
     border: 1px solid whitesmoke;
 }
 .con2{
+    top: 0px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
     position: relative;
     display: inline-block;
@@ -288,8 +293,8 @@ s
 .con2 img{
     position: relative;
     left: 15px; 
-    
-    top: 4px;
+    border-radius: 20px;
+    top: -10px;
 }
 
 .consultas span{
@@ -486,7 +491,8 @@ s
 .cognitivo{
     background: white;
     border-radius: 20px;
-    width: 330px;
+    width: 400px;
+
 }
 .cognitivo h2{
     position: relative;
@@ -495,7 +501,7 @@ s
 }
 .cognitivo p{
     position: relative;
-    width: 80%;
+    width: 90%;
     height: 110px;
     left: 30px;
 }
@@ -652,11 +658,31 @@ background: #F9F9F9;
     width: 400px;
     left: 30px;
 }
-.insta{
-    position: absolute;
+
+.instagram{
+    border: none;
+    background: #f3e8d6;
+}
+.inst{
+    position: relative;
     left: 30px;
-    top: 90px;
+    top: 30px;
+    text-decoration: #9c562a;
     cursor: pointer;
+}.inst img{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 30px;
+    bottom: 25px;
+}
+.inst h3{
+    position: relative;
+    left: 100px;
+    bottom: 90px;
+    
+    color: #9c562a;
+    font-size: 40px;
 }
 
 .face{
@@ -665,7 +691,78 @@ background: #F9F9F9;
     left: 65px;
     top: 90px;
 }
+.post{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    bottom: 5px;
+    text-decoration: none;
+    
+    
+   
+}
+.post img{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    
+   
+}
 
+.post1{
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+    border: none;
+    cursor: pointer ;
+   
+}
+.post2{
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+   border: none;
+}
+.post3{
+    position: relative;
+    left: 30px;
+    bottom: 40px;
+    border: none;
+  
+}
+.post4{
+    position: relative;
+    border: none;
+    bottom: 40px;
+   left: 40px;
+    
+}
+.follow{
+    position: absolute;
+   top: 360px;
+   right: 460px;
+    width: 250px;
+    border-radius: 5px;
+    height: 30px;
+    border: 1px solid whitesmoke;
+    background: white;
+    text-decoration: none;
+    font-weight: 700;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+.follow span{
+    
+    position: relative;
+    left: 25px;
+    bottom: 2px;
+    font-size: 20px;
+    color: #9c562a;
+}
+.follow:hover{
+    background: #f3e8d6;
+    box-shadow: none;
+    text-decoration: #f3e8d6;
+}
 .linksrapidos{
     position: relative;
     left: 360px;
