@@ -9,9 +9,8 @@ body{
 }
 
 
-
 #h-a{
-   background: white;
+   background: #f3e8d6;
     width: 300px !important;
     height: 50px;
     bottom: 200px;
@@ -48,13 +47,13 @@ body{
     color: black;
 	font-family: "Segoe UI";
     left: 40px;
-    bottom: 20px;
+   
     font-size: 25px;
 }
 .h1-psi{
     position: relative;
     left: 10px;
-    bottom: 60px;
+    bottom: 20px;
     font-size: 50px;
     font-family: "Segoe UI";
     font-weight: 700;
@@ -64,7 +63,7 @@ body{
     position: relative;
     left: 40px;
     font-size: 20px;
-    bottom: 90px;
+    bottom: 30px;
     font-family: "Segoe UI";
     font-weight: 700;
 }
@@ -73,11 +72,21 @@ body{
     position: relative;
     left: 30px;
     font-size: 18px;
-    bottom: 100px;
+    bottom: 30px;
     font-family: "Segoe UI";
     
 }
-
+.master{
+    background: #f3e8d6;
+    position: relative;
+    top: -5px;
+}
+.container {
+    position: relative;
+   
+    height: 630px;
+    
+    }
 .foto-principal{
    display: none;
 }
@@ -104,13 +113,17 @@ left: -30px;
     height: 60px;
     left: 30px;
     font-size: 18px;
-    bottom: 110px;
+    bottom: 20px;
     border-radius: 40px;
 
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
+.agende-whatsapp a{
+    text-decoration: #9c562a;
+}
 .agende-whatsapp span{
-    text-decoration: none;
+    position: relative;
+    top: 5px;
 }
 .agende-whatsapp:hover{ 
     background: #f3e8d6;
@@ -126,7 +139,7 @@ left: -30px;
 }
 .ele-a{
     position: relative;
-    top: 8px;
+    top: 2px;
     left: 8px;
     width: 40px;
     height: 40px;
@@ -142,15 +155,7 @@ left: -30px;
     font-family: "Segoe UI";
     font-weight: 750;
 }
-.container {
-    position: relative;
-    
-    background: #f3e8d6;
-    height: 630px;
-    width: 100%;
-    
-   
-  }
+
   
   .foto-principal {
     
@@ -187,10 +192,10 @@ border-radius: 20px;
     background: #f3e8d6;
     border-radius: 20px;
 
-    width: 38%;
+    width: 44%;
     height: 430px;
     bottom: 500px;
-    left: 7%;
+    left: 2%;
     border: 1px solid #9c562a;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 
@@ -218,32 +223,32 @@ border-radius: 20px;
     height: 650px;
     background: #f3e8d6;
     z-index: 9997;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
 .consultas:hover{
-    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-    width: 38%;
-    height: 670px;
+    box-shadow: none;
     left: 95px;
 }
 s
 .consultas img{
-    position: relative;
-  
+    position: absolute;
+
+  left: 100px;
   border-radius: 20px;
 }
 .consultas h1{
     position: relative;
     left: 10px;
+    bottom: 10px;
     font-size: 40px;
-    bottom: 5px;
     color: #9c562a;
     font-weight: 700;
 }
 
 .consultas p{
     position: relative;
-    width: 340px;
-    left: 30px;
+    width: 380px;
+    left: -5px;
     bottom: 20px;
     font-size: 18px;
 }
@@ -255,7 +260,7 @@ s
     padding: 5px;
     width: 300px;
     left: 25px;
-    bottom: 50px;
+    bottom: 10px;
     background: whitesmoke;
     border-radius: 30px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
@@ -268,9 +273,7 @@ s
      top: -10px;
      border-radius: 20PX;
 }
-.cons{
-    top: -20px;
-}
+
 .cons:hover{
     background: #f3e8d6;
     box-shadow: none;
@@ -286,7 +289,7 @@ s
     padding: 5px;
     width: 300px;
     left: 25px;
-    bottom: -40px;
+   top:45px;
     background: whitesmoke;
     border-radius: 30px;
 }
@@ -313,11 +316,103 @@ s
 
 
 
+
+.adultos{
+    z-index: 9990;
+}
+.info{
+    position: relative;
+    bottom: 170px;
+    width: 30%;
+    height: 700px;
+    left: 540px;
+    bottom: 560px;
+    z-index: 9900;
+}
+.info h1{
+ width: 800px;
+}
+.info h3{
+    width: 600px;
+}
+.quem-eu-sou{
+    position: absolute; 
+    width: 100%;
+    height: 800px;
+    background: #f3e8d6;
+   top: 720px;
+   
+   z-index: 9899;
+}
+.img-quem-sou-eu img{
+    position: relative;
+    width: 40%;
+    height: 600px;
+    left: 30px;
+   top: 60px;
+   border-radius: 20px;
+}
+.quem-whatsapp{
+    position: absolute;
+    width: 350px;
+    height: 60px;
+    left: 20px;
+    font-size: 18px;
+    bottom: -20px;
+    border-radius: 40px;
+    
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+.quem-whatsapp a span{
+  
+   
+    top: 5px;
+    left: 50px;
+}
+.quem-whatsapp a img{
+    position: absolute;
+    top: 10px;
+}
+.quem-whatsapp:hover{ 
+    background: #f3e8d6;
+    box-shadow: none;
+    border: 1px solid whitesmoke;
+}
+.quemwhatsapp span:hover {
+    position: relative;
+ 
+    font-size: 28px;
+    left: 10px;
+ 
+}
+.quem-a{
+    position: relative;
+    top: 8px;
+    left: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+.quem-agende{
+    text-decoration: #f3e8d6;
+}
+.quem-agende span{
+    position: relative;
+    left: 20px;
+    bottom: 5px;
+    color: #9c562a;
+    font-size: 27px;
+    text-decoration: white;
+    font-family: "Segoe UI";
+    font-weight: 750;
+}
+
 .vantagens{
     position: relative;
     top: 830px;
     width:100%;
-    height: 1000px;
+    height: 870px;
 }
 .parte1{
     width: 100%;
@@ -332,24 +427,24 @@ s
 .parte1 h2{
     position: relative;
     left: 300px;
-    color: white;
-    bottom: 450px;
+    color: black;
+    bottom: 480px;
     font-size: 20px;
 }
 .parte1 h1{
     position: relative;
     left: 240px;
-    bottom: 450px;
+    bottom: 490px;
     font-size: 50px;
-    color: white;
+    color: black;
 }
 .parte1 p{
     position: relative;
     width: 50%;
     left: 245px;
     font-size: 20px;
-    bottom: 470px;
-    color: white;
+    bottom: 510px;
+    color: black;
 }
 .divtwo{
     display: flex;
@@ -375,8 +470,8 @@ s
 }
 .divtwo div h2{
  position: relative;
- left: 70px;
- width: 350px;
+ left: 20px;
+ width: 90%;
 }
 .divtwo div p{
     position: relative;
@@ -407,87 +502,16 @@ s
 }
 .divthree div h2{
  position: relative;
- left: 70px;
- width: 320px;
+ left: 15px;
+ width: 98%;
 }
 .divthree div p{
     position: relative;
     width: 90%;
     left: 25px;
 }
-.adultos{
-    z-index: 9990;
-}
-.info{
-    position: relative;
-    bottom: 170px;
-    width: 30%;
-    height: 700px;
-    left: 670px;
-    bottom: 560px;
-    z-index: 9900;
-}
-.quem-eu-sou{
-    position: absolute; 
-    width: 100%;
-    height: 800px;
-    background: #f3e8d6;
-   top: 720px;
-   
-   z-index: 9899;
-}
-.img-quem-sou-eu img{
-    position: relative;
-    width: 40%;
-    height: 600px;
-    left: 30px;
-   top: 60px;
-   border-radius: 20px;
-}
-.quem-whatsapp{
-    position: relative;
-    width: 350px;
-    height: 60px;
-    left: 0px;
-    font-size: 18px;
-    bottom: -10px;
-    border-radius: 40px;
 
-    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-}
-.quem-whatsapp span{
-    text-decoration: none;
-}
-.quem-whatsapp:hover{ 
-    background: #f3e8d6;
-    box-shadow: none;
-    border: 1px solid whitesmoke;
-}
-.quemwhatsapp span:hover {
-    position: relative;
- 
-    font-size: 28px;
-    left: 10px;
- 
-}
-.quem-a{
-    position: relative;
-    top: 8px;
-    left: 8px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-}
-.quem-agende span{
-    position: relative;
-    left: 20px;
-    bottom: 5px;
-    color: #9c562a;
-    font-size: 27px;
-    text-decoration: white;
-    font-family: "Segoe UI";
-    font-weight: 750;
-}
+
 .cognitivo{
     background: white;
     border-radius: 20px;
@@ -529,14 +553,14 @@ s
     opacity: 0;
     transition: opacity .2s;
     width: 100%;
-        
+       
     position: absolute;
 }
 .container-slider {
     display: flex;
     width: 100%;
     flex-direction: row;
-    
+ 
     min-height: 100vh;
 
   }
@@ -626,9 +650,9 @@ background: #F9F9F9;
  }
 .sobrenos{
     position: relative;
-    top: 1420px;
+    top: 1450px;
     width: 100%;
-    height: 250px;
+    height: 320px;
 
     background: #f3e8d6; 
 }
@@ -691,6 +715,11 @@ background: #F9F9F9;
     left: 65px;
     top: 90px;
 }
+.insta{
+position: relative;
+right: 220px;
+top: 90px;
+}
 .post{
     position: relative;
     width: 250px;
@@ -739,11 +768,11 @@ background: #F9F9F9;
 }
 .follow{
     position: absolute;
-   top: 360px;
-   right: 460px;
+   top: 350px;
+   right: 420px;
     width: 250px;
-    border-radius: 5px;
-    height: 30px;
+    border-radius: 20px;
+    height: 40px;
     border: 1px solid whitesmoke;
     background: white;
     text-decoration: none;
@@ -753,8 +782,8 @@ background: #F9F9F9;
 .follow span{
     
     position: relative;
-    left: 25px;
-    bottom: 2px;
+    left: 30px;
+    bottom: -5px;
     font-size: 20px;
     color: #9c562a;
 }
@@ -763,6 +792,11 @@ background: #F9F9F9;
     box-shadow: none;
     text-decoration: #f3e8d6;
 }
+
+.accordion-header:active{
+    border: none;
+}
+
 .linksrapidos{
     position: relative;
     left: 360px;
@@ -775,13 +809,13 @@ background: #F9F9F9;
 }
 .linksrapidos a{
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     top: 40px;
     right: 80px;
     margin-top: 10px;
     text-decoration: #f3e8d6 ;
     color: #9c562a;
-    font-size: 20px;
+    font-size: 25px;
 }
 .linksrapidos ul{
     position: absolute;
@@ -791,7 +825,9 @@ background: #F9F9F9;
 .linksrapidos li{
     list-style-type: none;
     margin-bottom: 10px;
-    width: 200px;
+    width: 320px;
+    font-weight: 700;
+   
 }
 .linksrapidos a:hover{
     color: white;
@@ -829,7 +865,7 @@ height: 40px;
 }
 .atendimento a:hover{
     background: #f3e8d6;
-    top: 150px;
+    ;
     border: 1px solid whitesmoke;
     text-decoration: #f3e8d6 !important;
     box-shadow: none;
@@ -853,7 +889,7 @@ height: 40px;
     position: relative;
     width: 100%;
     height: 60px;
-    top: 1420px;
+    top: 1450px;
 }
 .copyright p{
     display: flex;
@@ -862,6 +898,21 @@ height: 40px;
     top: 20px;
     color: #9c562a;
 }
+
+.fotoConver{
+     margin-left: 135px;
+}
 /*  #f3e8d6 amarelo estranho
+
+Para dispositivos móveis (como smartphones):
+
+Até 480px de largura: É uma boa opção para smartphones com telas menores.
+De 481px a 767px de largura: Abrange uma variedade de dispositivos móveis, incluindo smartphones maiores e tablets menores.
+De 768px a 991px de largura: Engloba tablets maiores e dispositivos com telas de tamanho intermediário.
+Para dispositivos desktop:
+
+De 992px a 1199px de largura: Inclui monitores de laptop e desktop com tamanho padrão.
+A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop amplas ou monitores ultrawide.
+
 
 #bb8e75 marrom  */
