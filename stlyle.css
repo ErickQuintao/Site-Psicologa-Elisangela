@@ -559,47 +559,43 @@ s
 
 
 
+  
+  .container-slider {
+    display: flex;
+    width: 100%;
+    
+    min-height: 100vh;
+  }
+  
+  .container-images {
+    width: 100%;
+    overflow: hidden;
+  }
+  .cont{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .slider {
+    position: relative;
+    top: 20px;
+    width: 300px;
+    height: 270px;
+    background: #F9F9F9;
+    border-radius: 10px;
+    margin-left: 45px;
+    left: 20px;
+  }
+  
 .container-main{
     position: relative;
     top: 840px;
     background: #f3e8d6;
    height: 300px;
+   overflow: hidden;
 }
 
-.cont{
-    opacity: 0;
-    transition: opacity .2s;
-    width: 100%;
-       
-    position: absolute;
-}
-.container-slider {
-    display: flex;
-    width: 100%;
-    flex-direction: row;
- 
-    min-height: 100vh;
-
-  }
-  
-  .container-images {
- 
-    width: 100%;
-  }
-  
-  .slider {
- position: relative;
-     top: 20px;
-    width: 330px;
-height: 270PX;
-background: #F9F9F9;
-    border-radius: 10px;
-    left: 0px;
-  }
-
-  .on {
-    opacity: 1;
-  }
  
   #prev-button, #next-button {
     width: 30px;
@@ -616,14 +612,16 @@ background: #F9F9F9;
   }
   
   #prev-button {
-    position: relative;
+    position: absolute;
     top: 150px;
+    left: -3px;
     transform: rotate(180deg);
+    z-index: 9990;
   }
  #next-button{
     position: absolute;
     top: 150px;
-    left: 1045px;
+    left: 1390px;
   
  }
 
@@ -1103,21 +1101,21 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
     position: relative;
     font-size: 20px;
     bottom: 470px;
-    right: 500px;
+    right: 700px;
 }
 .info h1{
     position: relative;
     font-size: 30px;
     width: 300px;
     bottom: 470px;
-    right: 500px;
+    right: 700px;
 }
 .info p{
     position: relative;
     font-size: 20px;
     width: 300px;
     bottom: 470px;
-    right: 480px;
+    right: 700px;
 }
 .cognitivo{
     position: relative;
@@ -1129,21 +1127,21 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
 }
 .cognitivo h2{
     position: relative;
-    left: -440px;
+    left: -640px;
     top: -470px;
     width: 50%;
 }
 .cognitivo p{
     position: relative;
     top: -470px;
-    left: -510px;
+    left: -700px;
     width: 350px;
 }
 .quem-whatsapp{
    
     width: 230px;
     height: 50px;
-    left: -460px;
+    left: -640px;
     bottom: 230px;
 }
 .quem-whatsapp span{
@@ -1158,9 +1156,78 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
     top: -500px;
 }
 .vantagens{
-    top: 2200px;
+    top: 2000px;
 }
+.fotosTerapia img{
+    top: 125px;
+    width: 400px;
+    height: 400px;
+}
+.parte1 h2{
+    position: relative;
+    width: 400px;
+    height: 10px;
+    font-size: 17px;
+  left: 30px;
+   top: -270px;
+}
+.parte1 h1{
+    position: absolute;
+    font-size: 32px;
+    width: 400px;
+   left: 10px;
+   bottom: 680px;
+}
+.parte1 p{
+    font-size:15px;
+    left: 30px;
+    width: 330px;
+    height: 400px;
+    bottom: 260px;
+}.parte2 div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.divtwo div{
+    left: -140px;
+    bottom: 60px;
+    margin-bottom: 30px;
+}
+.divthree div{
+    left: -140px;
+    bottom: -170px;
+    margin-bottom: 20px;
+}
+
 .container-main{
-    top: 1400px;
+    top: 2670px;
+}
+#next-button{
+    left: 355px;
+}
+.cont img {
+    width: 200px;
+    height: 270px;
+    left: -30px;
+  
+}
+.cont img:hover{
+    width: 330px;
+    height: 270;
+}
+.instagram{
+    top: 2800px;
+}
+.perguntas{
+    top: 2600px;
+}
+.sobrenos{
+    top: 600px;
+}
+.copyright{
+    top: 2000px;
 }
 }
