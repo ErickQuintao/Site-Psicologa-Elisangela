@@ -11,14 +11,14 @@ body{
     position: fixed;
     width: 50px;
     height: 50px;
-    left: 1000px;
-    top: 450px;
+    left: 1300px;
+    top: 600px;
     z-index: 10000;
 }
 .fixed-what img{
     
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 
 #h-a{
@@ -204,7 +204,7 @@ border-radius: 20px;
     background: #f3e8d6;
     border-radius: 20px;
 
-    width: 44%;
+    width: 32%;
     height: 430px;
     bottom: 500px;
     left: 2%;
@@ -337,7 +337,7 @@ s
     bottom: 170px;
     width: 30%;
     height: 700px;
-    left: 540px;
+    left: 740px;
     bottom: 560px;
     z-index: 9900;
 }
@@ -438,14 +438,14 @@ s
 }
 .parte1 h2{
     position: relative;
-    left: 300px;
+    left: 540px;
     color: black;
     bottom: 480px;
     font-size: 20px;
 }
 .parte1 h1{
     position: relative;
-    left: 240px;
+    left: 450px;
     bottom: 490px;
     font-size: 50px;
     color: black;
@@ -453,10 +453,15 @@ s
 .parte1 p{
     position: relative;
     width: 50%;
-    left: 245px;
+    left: 420px;
     font-size: 20px;
     bottom: 510px;
     color: black;
+}
+.parte2{
+    position: relative;
+    bottom: 70px;
+    left: 180px;
 }
 .divtwo{
     display: flex;
