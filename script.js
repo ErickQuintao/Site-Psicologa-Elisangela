@@ -49,3 +49,6 @@ document.querySelectorAll('.linksrapidos a').forEach(function(link) {
   });
 });
 
+
+
+

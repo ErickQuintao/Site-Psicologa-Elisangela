@@ -33,15 +33,15 @@ body{
     position: relative;
     width: 40px;
     height: 40px;
-    left: 850px;
-    bottom: 125px;
+    left: 830px;
+    bottom: 105px;
 }
 #h-a p{
     position: relative;
-     left: 900px;
+     left: 880px;
      width: 200px;
      height: 30px;
-    bottom: 165px;
+    bottom: 145px;
     text-decoration: none;
    
     color: black;
@@ -928,3 +928,234 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
 
 
 #bb8e75 marrom  */
+
+/* celulares*/
+@media (min-width:200px) and  (max-width: 450px){
+.fixed-what{
+    position: fixed;
+    top: 740px;
+    left: 330px;
+    z-index: 10000;
+}
+.fixed-what img{
+    width: 50px;
+    height: 50px;
+}
+    #header-img{
+    position: relative;
+    width: 140px;
+    height: 60px;
+}
+#header-h2{
+    font-size: 20px;
+   width: 200px;
+   bottom: 50px;
+    left:140px;
+}
+#h-a img{
+    width: 20px;
+    height: 20px;
+    bottom:100px;
+  left: 350px;
+}
+#h-a p{
+    left: 310px;
+    bottom: 95px;
+    font-size: 11px;
+}
+.imgsEli{
+    width: 370px;
+    height: 250px;
+    top: 20px;
+    left:  -7px;
+}
+.blocobranco{
+    top: 40px;
+    width: 370px;
+    left: -5px;
+    height: 330px;
+}
+.crp{
+    font-size: 20px;
+    
+    left: 70px;
+}
+.h1-psi{
+    top: 1px;
+    left: 100px;
+    font-size: 22px;
+}
+.h3-ter{
+    font-size: 15px;
+    top: 1px;
+
+    left: 60PX;
+   
+}
+.list-p{
+    font-size: 13px;
+    top: 1px;
+    left: 90px;
+    color: black;
+}
+.list-p img{
+    width: 10px;
+    height: 10px;
+}
+.agende-whatsapp{
+    
+    width: 320px;
+    bottom: 10px;
+    height: 40px;
+}
+.agende-whatsapp span:active {
+    font-size: 20px;
+    left: 50px;
+}
+.ele-a{
+    width: 25px;
+    height: 25px;
+   top: 1px;
+   left: 20px;
+}
+.agende span{
+    font-size: 20px;
+    left: 50px;
+}
+.tipo-consulta{
+    width: 101%;
+    display: flex;
+    flex-direction: column;
+    left: -1%;
+}
+
+.consultas{
+    width: 350px;
+    height: 650px;
+    z-index: 9997;
+    left: 20px;
+    margin-top: 30px;
+}
+.fotoConver{
+    position: relative;
+   right: 20px;
+
+}
+.consultas h1{
+    font-size: 30px;
+    left: 30PX;
+}
+.consultas p{
+    width: 300px;
+}
+.con{
+    width: 240px;
+    height: 45px;
+    bottom: 30px;
+    background: #f3e8d6;
+}
+.imgcon1{
+    top: -3px;
+    left: 1px;
+}
+.con span{
+    font-size: 22px;
+}
+.con2{
+    position: relative;
+    display: inline-block;
+    width: 240px;
+    height: 45px;
+   top: -20px;
+    background: #f3e8d6;
+}
+.imgcon2{
+    top: -3px;
+    left: 1px;
+}
+.con2 span{
+    font-size: 22px;
+}
+.quem-eu-sou{
+    position: absolute;
+    top: 1400px;
+    height: 1300px;
+}
+.img-quem-sou-eu{
+    position: relative;
+    height: 300px;
+}
+.img-quem-sou-eu img{
+    top: 20px;
+    width: 370px;
+    left: 10px;
+    height: 300px;
+}
+.info{
+    top: 500px;
+}
+.info h3{
+    position: relative;
+    font-size: 20px;
+    bottom: 470px;
+    right: 500px;
+}
+.info h1{
+    position: relative;
+    font-size: 30px;
+    width: 300px;
+    bottom: 470px;
+    right: 500px;
+}
+.info p{
+    position: relative;
+    font-size: 20px;
+    width: 300px;
+    bottom: 470px;
+    right: 480px;
+}
+.cognitivo{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+ 
+   
+}
+.cognitivo h2{
+    position: relative;
+    left: -440px;
+    top: -470px;
+    width: 50%;
+}
+.cognitivo p{
+    position: relative;
+    top: -470px;
+    left: -510px;
+    width: 350px;
+}
+.quem-whatsapp{
+   
+    width: 230px;
+    height: 50px;
+    left: -460px;
+    bottom: 230px;
+}
+.quem-whatsapp span{
+  
+    font-size: 15px;
+    top: 30px;
+}
+.quem-whatsapp img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: -500px;
+}
+.vantagens{
+    top: 2200px;
+}
+.container-main{
+    top: 1400px;
+}
+}
