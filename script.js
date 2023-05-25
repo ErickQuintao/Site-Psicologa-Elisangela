@@ -1,29 +1,35 @@
-const carousel = document.querySelector('.container-slider');
-const slides = carousel.querySelector('.cont');
-const prevBtn = document.getElementById('prev-button');
-const nextBtn = document.getElementById('next-button');
+const sliderItems = Array.from(document.querySelectorAll('.cont'));
+const prevButton = document.getElementById('prev-button');
+const nextButton = document.getElementById('next-button');
+let currentSlide = 0;
 
-let slideWidth = carousel.clientWidth;
-let slideIndex = 0;
-
-function moveSlides() {
-  slides.style.transform = `translateX(${-slideWidth * slideIndex}px)`;
+function hideSlider() {
+  sliderItems.forEach(item => {
+    item.classList.remove('on');
+  });
 }
 
-function slidePrev() {
-  slideIndex = slideIndex > 0 ? slideIndex - 1 : slides.childElementCount - 1;
-  moveSlides();
+function showSlider() {
+  sliderItems[currentSlide].classList.add('on');
 }
 
-function slideNext() {
-  slideIndex = slideIndex < slides.childElementCount - 1 ? slideIndex + 1 : 0;
-  moveSlides();
+function nextSlider() {
+  hideSlider();
+  currentSlide = (currentSlide + 1) % sliderItems.length;
+  showSlider();
 }
 
-prevBtn.addEventListener('click', slidePrev);
-nextBtn.addEventListener('click', slideNext);
+function prevSlider() {
+  hideSlider();
+  currentSlide = (currentSlide - 1 + sliderItems.length) % sliderItems.length;
+  showSlider();
+}
 
+nextButton.addEventListener('click', nextSlider);
+prevButton.addEventListener('click', prevSlider);
 
+hideSlider();
+showSlider();
 
 
 

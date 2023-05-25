@@ -1,3 +1,4 @@
+
 body{
     width: 100%;
     height: 100%;
@@ -324,7 +325,7 @@ s
     width: 40px;
     height: 40px;
 }
-/* corretar os erros do botao,do card!! */
+
 
 
 
@@ -557,26 +558,32 @@ s
     top: 830px;
 }
 
-
-
-  
-  .container-slider {
+.container-slider {
     display: flex;
     width: 100%;
-    
     min-height: 100vh;
   }
   
   .container-images {
     width: 100%;
     overflow: hidden;
-  }
-  .cont{
-    display: flex;
     flex-direction: row;
-    
   }
   
+  .cont {
+    opacity: 0;
+    transition: opacity .2s;
+    display: flex;
+    flex-direction: row;
+  }
+  .cont1{
+    position: relative;
+    bottom: 270px;
+  }
+  .cont2{
+    position: relative;
+    bottom: 540px;
+  }
   .slider {
     position: relative;
     top: 20px;
@@ -588,25 +595,24 @@ s
     left: 20px;
   }
   
-.container-main{
+  .container-main {
     position: relative;
     top: 840px;
     background: #f3e8d6;
-   height: 300px;
-   overflow: hidden;
-}
-
- 
+    height: 300px;
+    overflow: hidden;
+  }
+  
   #prev-button, #next-button {
     width: 30px;
     height: 30px;
     border: none;
-    
     background-color: transparent;
     cursor: pointer;
   }
-
-  #prev-button img, #next-button img {
+  
+  #prev-button img,
+  #next-button img {
     width: 100%;
     height: 100%;
   }
@@ -618,12 +624,16 @@ s
     transform: rotate(180deg);
     z-index: 9990;
   }
- #next-button{
+  
+  #next-button {
     position: absolute;
     top: 150px;
-    left: 1390px;
+    right: -3px;
+  }
   
- }
+  .cont.on {
+    opacity: 1;
+  }
 
 .instagram{
     position: relative;
@@ -747,9 +757,9 @@ top: 90px;
 }
 .post img{
     position: relative;
-    width: 250px;
+    width: 300px;
     height: 250px;
-    
+    left: 70px;
    
 }
 
@@ -784,7 +794,7 @@ top: 90px;
 .follow{
     position: absolute;
    top: 350px;
-   right: 420px;
+   right: 590px;
     width: 250px;
     border-radius: 20px;
     height: 40px;
@@ -917,28 +927,24 @@ height: 40px;
 .fotoConver{
      margin-left: 135px;
 }
-/*  #f3e8d6 amarelo estranho
-
-Para dispositivos móveis (como smartphones):
-
-Até 480px de largura: É uma boa opção para smartphones com telas menores.
-De 481px a 767px de largura: Abrange uma variedade de dispositivos móveis, incluindo smartphones maiores e tablets menores.
-De 768px a 991px de largura: Engloba tablets maiores e dispositivos com telas de tamanho intermediário.
-Para dispositivos desktop:
-
-De 992px a 1199px de largura: Inclui monitores de laptop e desktop com tamanho padrão.
-A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop amplas ou monitores ultrawide.
 
 
-#bb8e75 marrom  */
 
 /* celulares*/
-@media (min-width:200px) and  (max-width: 450px){
-.fixed-what{
-    position: fixed;
-    top: 740px;
+@media (min-width:200px) and  (max-width: 750px){
+body{
+    width: 100%;
+    height: 100%;
+}
+    .fixed-what{
+    position: fixed !important;
+  
+}
+.fixed-what a {
+    position: fixed !important;
+    top: 36% !important;
     left: 330px;
-    z-index: 10000;
+    z-index: 10100;
 }
 .fixed-what img{
     width: 50px;
@@ -1091,7 +1097,7 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
 .img-quem-sou-eu img{
     top: 20px;
     width: 370px;
-    left: 10px;
+    left: 30px;
     height: 300px;
 }
 .info{
@@ -1157,9 +1163,10 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
 }
 .vantagens{
     top: 2000px;
+    height: 1350px;
 }
 .fotosTerapia img{
-    top: 125px;
+    top: 5px;
     width: 400px;
     height: 400px;
 }
@@ -1169,21 +1176,21 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
     height: 10px;
     font-size: 17px;
   left: 30px;
-   top: -270px;
+   top: -390px;
 }
 .parte1 h1{
     position: absolute;
     font-size: 32px;
     width: 400px;
    left: 10px;
-   bottom: 680px;
+   bottom: 1270px;
 }
 .parte1 p{
     font-size:15px;
     left: 30px;
     width: 330px;
     height: 400px;
-    bottom: 260px;
+    bottom: 370px;
 }.parte2 div{
     width: 300px;
     height: 300px;
@@ -1191,43 +1198,1368 @@ A partir de 1200px de largura: Aborda monitores maiores, como telas de desktop a
     flex-direction: column;
   
 }
+
 .divtwo div{
     left: -140px;
-    bottom: 60px;
+    bottom: 170px;
     margin-bottom: 30px;
+}
+.divtwo div img{
+    left: 120px;
+}
+.divthree div img{
+    left: 120px;
 }
 .divthree div{
     left: -140px;
-    bottom: -170px;
+    bottom: -60px;
     margin-bottom: 20px;
 }
 
 .container-main{
-    top: 2670px;
+    top: 2070px;
+    height: 1900px;
+    
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
 }
 #next-button{
     left: 355px;
 }
 .cont img {
-    width: 200px;
+    width: 380px;
     height: 270px;
     left: -30px;
   
 }
-.cont img:hover{
-    width: 330px;
-    height: 270;
+.eightV{
+    display: none;
 }
+
+#next-button{
+    display: none;
+}
+#prev-button{
+    display: none;
+}
+
 .instagram{
-    top: 2800px;
+    top: 2100px;
+    height: 1110px;
+}
+.inst{
+    height: 60px;
+}
+.inst img{
+    width: 45px;
+    height: 45px;
+    right: 10px;
+}
+.inst h3{
+    position: relative;
+    left: 40px;
+    bottom: 70px;
+    font-size: 25px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    left: -10px;
+    margin-bottom: 5px;
+}
+.follow{
+    top: 1060px;
+    left: 70px;
+    background: #f3e8d6;
 }
 .perguntas{
-    top: 2600px;
+    top: 2120px;
+    height: 1000px;
+   left: 5px;
+}
+.perguntas h1{
+   left: 10px;
 }
 .sobrenos{
-    top: 600px;
+    top: 2000px;
+    height: 660px;
+}
+.sobrenos div{
+    display: flex;
+    flex-direction: column;
+}
+.nome{
+    height: 170px !important;
+}
+.nome h2{
+    top: 30px;
+    
+}
+.face{
+    left: 30px;
+    top: 95px;
+}
+.insta{
+    left: 70px;
+    top: -45px;
+}
+.linksrapidos{
+    bottom: -10px;
+    left: -50px;
+}
+.linksrapidos h2{
+    left: 175px;
+}
+.atendimento{
+    left: 200px;
+    bottom: -60px;
+}
+.atendimento h2{
+    left: -130px;
+}
+.atendimento h4{
+    left: -140px;
+}
+.atendimento a{
+    left: -110px;
+    top: 120px;
+    background: #f3e8d6;
 }
 .copyright{
     top: 2000px;
+    height: 100px;
 }
+}/*desktop*/
+@media (min-width:751px) and  (max-width: 1000px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .fixed-what{
+        position: fixed !important;
+      
+    }
+    .fixed-what a {
+        position: fixed !important;
+        top: 30% !important;
+        left: 480px;
+        z-index: 10100;
+    }
+
+    .fixed-what img{
+        width: 50px;
+        height: 50px;
+    }
+  .container{
+    height: 700px;
+  }
+    #header-img{
+        position: relative;
+        width: 180px;
+        height: 60px;
+    }
+    #header-h2{
+        font-size: 20px;
+       width: 200px;
+       bottom: 47px;
+        left:185px;
+    }
+    #h-a img{
+        width: 30px;
+        height: 30px;
+        bottom:90px;
+      left: 390px;
+    }
+    #h-a p{
+        left: 425px;
+        bottom: 115px;
+        font-size: 15px;
+    }
+    .imgsEli{
+        width: 500px;
+        height: 280px;
+        top: 20px;
+        left:  -7px;
+    }
+    .blocobranco{
+        top: 35px;
+        width: 500px;
+        left: -5px;
+        height: 376px;
+    }
+    .crp{
+        font-size: 33px;
+        
+        left: 20px;
+    }
+    .h1-psi{
+        top: 1px;
+        left: 100px;
+        font-size: 40px;
+    }
+    .h3-ter{
+        font-size: 20px;
+        top: -15px;
+    
+        left: 60PX;
+       
+    }
+    .list-p{
+        font-size: 15px;
+        top: -17px;
+        left: 90px;
+        color: black;
+    }
+    .list-p img{
+        width: 15px;
+        height: 15px;
+    }
+    .agende-whatsapp{
+        
+        width: 320px;
+        bottom: 32px;
+        height: 40px;
+        left: 80px;
+    }
+    .agende-whatsapp span {
+        font-size: 20px;
+        left: 50px;
+    }
+    .agende-whatsapp:active{
+        box-shadow: none;
+        border: 1px sloid whitesmoke;
+    }
+    .ele-a{
+        width: 30px;
+        height: 30px;
+       top: 4px;
+       left: 20px;
+    }
+
+    .tipo-consulta{
+        width: 101%;
+        display: flex;
+        flex-direction: column;
+        left: -1%;
+    }
+    
+    .consultas{
+        width: 430px;
+        height: 650px;
+        z-index: 9997;
+        left: -10px;
+        margin-top: 30px;
+    }
+    .fotoConver{
+        position: relative;
+       right: 20px;
+    
+    }
+    .consultas h1{
+        font-size: 30px;
+        left: 30PX;
+    }
+    .consultas p{
+        width: 300px;
+    }
+    .con{
+        width: 240px;
+        height: 45px;
+        bottom: 30px;
+        background: #f3e8d6;
+    }
+    .imgcon1{
+        top: -3px;
+        left: 1px;
+    }
+    .con span{
+        font-size: 22px;
+    }
+    .con2{
+        position: relative;
+        display: inline-block;
+        width: 240px;
+        height: 45px;
+       top: -20px;
+        background: #f3e8d6;
+    }
+    .imgcon2{
+        top: -3px;
+        left: 1px;
+    }
+    .con2 span{
+        font-size: 22px;
+    }
+
+    .quem-eu-sou{
+        position: absolute;
+        top: 1400px;
+        height: 1300px;
+    }
+    .img-quem-sou-eu{
+        position: relative;
+        height: 300px;
+    }
+    .img-quem-sou-eu img{
+        top: 20px;
+        width: 370px;
+        left: 30px;
+        height: 300px;
+    }
+    .info{
+        top: 500px;
+    }
+    .info h3{
+        position: relative;
+        font-size: 20px;
+        bottom: 470px;
+        right: 700px;
+    }
+    .info h1{
+        position: relative;
+        font-size: 30px;
+        width: 300px;
+        bottom: 470px;
+        right: 700px;
+    }
+    .info p{
+        position: relative;
+        font-size: 20px;
+        width: 300px;
+        bottom: 470px;
+        right: 700px;
+    }
+    .cognitivo{
+        position: relative;
+        background: white;
+        border-radius: 20px;
+        border: 1px solid whitesmoke;
+     
+       
+    }
+    .cognitivo h2{
+        position: relative;
+        left: -640px;
+        top: -470px;
+        width: 50%;
+    }
+    .cognitivo p{
+        position: relative;
+        top: -470px;
+        left: -700px;
+        width: 350px;
+    }
+    .quem-whatsapp{
+       
+        width: 230px;
+        height: 50px;
+        left: -640px;
+        bottom: 230px;
+    }
+    .quem-whatsapp span{
+      
+        font-size: 15px;
+        top: 30px;
+    }
+    .quem-whatsapp img{
+        position: relative;
+        width: 35px;
+        height: 35px;
+        top: -500px;
+    }
+    .vantagens{
+        top: 2000px;
+        height: 1350px;
+    }
+    .fotosTerapia img{
+        top: 5px;
+        width: 400px;
+        height: 400px;
+    }
+    .parte1 h2{
+        position: relative;
+        width: 400px;
+        height: 10px;
+        font-size: 17px;
+      left: 30px;
+       top: -390px;
+    }
+    .parte1 h1{
+        position: absolute;
+        font-size: 32px;
+        width: 400px;
+       left: 10px;
+       bottom: 1270px;
+    }
+    .parte1 p{
+        font-size:15px;
+        left: 30px;
+        width: 330px;
+        height: 400px;
+        bottom: 370px;
+    }.parte2 div{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .divtwo div{
+        left: -140px;
+        bottom: 170px;
+        margin-bottom: 30px;
+    }
+    .divtwo div img{
+        left: 120px;
+    }
+    .divthree div img{
+        left: 120px;
+    }
+    .divthree div{
+        left: -140px;
+        bottom: -60px;
+        margin-bottom: 20px;
+    }
+    
+    .container-main{
+        top: 2070px;
+        height: 1900px;
+        
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+    }
+    #next-button{
+        left: 355px;
+    }
+    .cont img {
+        width: 380px;
+        height: 270px;
+        left: -30px;
+      
+    }
+    .eightV{
+        display: none;
+    }
+    
+    #next-button{
+        display: none;
+    }
+    #prev-button{
+        display: none;
+    }
+    
+    .instagram{
+        top: 2100px;
+        height: 1110px;
+    }
+    .inst{
+        height: 60px;
+    }
+    .inst img{
+        width: 45px;
+        height: 45px;
+        right: 10px;
+    }
+    .inst h3{
+        position: relative;
+        left: 40px;
+        bottom: 70px;
+        font-size: 25px;
+    }
+    .post{
+        display: flex;
+        flex-direction: column;
+        left: -10px;
+        margin-bottom: 5px;
+    }
+    .follow{
+        top: 1060px;
+        left: 70px;
+        background: #f3e8d6;
+    }
+    .perguntas{
+        top: 2120px;
+        height: 1000px;
+       left: 5px;
+    }
+    .perguntas h1{
+       left: 10px;
+    }
+    .sobrenos{
+        top: 2000px;
+        height: 660px;
+    }
+    .sobrenos div{
+        display: flex;
+        flex-direction: column;
+    }
+    .nome{
+        height: 170px !important;
+    }
+    .nome h2{
+        top: 30px;
+        
+    }
+    .face{
+        left: 30px;
+        top: 95px;
+    }
+    .insta{
+        left: 70px;
+        top: -45px;
+    }
+    .linksrapidos{
+        bottom: -10px;
+        left: -50px;
+    }
+    .linksrapidos h2{
+        left: 175px;
+    }
+    .atendimento{
+        left: 200px;
+        bottom: -60px;
+    }
+    .atendimento h2{
+        left: -130px;
+    }
+    .atendimento h4{
+        left: -140px;
+    }
+    .atendimento a{
+        left: -110px;
+        top: 120px;
+        background: #f3e8d6;
+    }
+    .copyright{
+        top: 2000px;
+        height: 100px;
+    }
+    }/*desktop*/
+    @media (min-width:751px) and  (max-width: 1000px){
+        body{
+            width: 100%;
+            height: 100%;
+        }
+        .fixed-what{
+            position: fixed !important;
+          
+        }
+        .fixed-what a {
+            position: fixed !important;
+            top: 30% !important;
+            left: 480px;
+            z-index: 10100;
+        }
+    
+        .fixed-what img{
+            width: 50px;
+            height: 50px;
+        }
+      .container{
+        height: 700px;
+      }
+        #header-img{
+            position: relative;
+            width: 180px;
+            height: 60px;
+        }
+        #header-h2{
+            font-size: 20px;
+           width: 200px;
+           bottom: 47px;
+            left:185px;
+        }
+        #h-a img{
+            width: 30px;
+            height: 30px;
+            bottom:90px;
+          left: 390px;
+        }
+        #h-a p{
+            left: 425px;
+            bottom: 115px;
+            font-size: 15px;
+        }
+        .imgsEli{
+            width: 500px;
+            height: 280px;
+            top: 20px;
+            left:  -7px;
+        }
+        .blocobranco{
+            top: 35px;
+            width: 500px;
+            left: -5px;
+            height: 376px;
+        }
+        .crp{
+            font-size: 33px;
+            
+            left: 20px;
+        }
+        .h1-psi{
+            top: 1px;
+            left: 100px;
+            font-size: 40px;
+        }
+        .h3-ter{
+            font-size: 20px;
+            top: -15px;
+        
+            left: 60PX;
+           
+        }
+        .list-p{
+            font-size: 15px;
+            top: -17px;
+            left: 90px;
+            color: black;
+        }
+        .list-p img{
+            width: 15px;
+            height: 15px;
+        }
+        .agende-whatsapp{
+            
+            width: 320px;
+            bottom: 32px;
+            height: 40px;
+            left: 80px;
+        }
+        .agende-whatsapp span {
+            font-size: 20px;
+            left: 50px;
+        }
+        .agende-whatsapp:active{
+            box-shadow: none;
+            border: 1px sloid whitesmoke;
+        }
+        .ele-a{
+            width: 30px;
+            height: 30px;
+           top: 4px;
+           left: 20px;
+        }
+    
+        .tipo-consulta{
+            width: 101%;
+            display: flex;
+            flex-direction: column;
+            left: -1%;
+        }
+        
+        .consultas{
+            width: 430px;
+            height: 650px;
+            z-index: 9997;
+            left: -10px;
+            margin-top: 30px;
+        }
+        .fotoConver{
+            position: relative;
+           right: 20px;
+        
+        }
+        .consultas h1{
+            font-size: 30px;
+            left: 30PX;
+        }
+        .consultas p{
+            width: 300px;
+        }
+        .con{
+            width: 240px;
+            height: 45px;
+            bottom: 30px;
+            background: #f3e8d6;
+        }
+        .imgcon1{
+            top: -3px;
+            left: 1px;
+        }
+        .con span{
+            font-size: 22px;
+        }
+        .con2{
+            position: relative;
+            display: inline-block;
+            width: 240px;
+            height: 45px;
+           top: -20px;
+            background: #f3e8d6;
+        }
+        .imgcon2{
+            top: -3px;
+            left: 1px;
+        }
+        .con2 span{
+            font-size: 22px;
+        }
+    
+        .quem-eu-sou{
+    position: absolute;
+    top: 1400px;
+    height: 1300px;
+}
+.img-quem-sou-eu{
+    position: relative;
+    height: 300px;
+}
+.img-quem-sou-eu img{
+    top: 20px;
+    width: 370px;
+    left: 30px;
+    height: 300px;
+}
+.info{
+    top: 500px;
+}
+.info h3{
+    position: relative;
+    font-size: 20px;
+    bottom: 470px;
+    right: 700px;
+}
+.info h1{
+    position: relative;
+    font-size: 30px;
+    width: 300px;
+    bottom: 470px;
+    right: 700px;
+}
+.info p{
+    position: relative;
+    font-size: 20px;
+    width: 300px;
+    bottom: 470px;
+    right: 700px;
+}
+.cognitivo{
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid whitesmoke;
+ 
+   
+}
+.cognitivo h2{
+    position: relative;
+    left: -640px;
+    top: -470px;
+    width: 50%;
+}
+.cognitivo p{
+    position: relative;
+    top: -470px;
+    left: -700px;
+    width: 350px;
+}
+.quem-whatsapp{
+   
+    width: 230px;
+    height: 50px;
+    left: -640px;
+    bottom: 230px;
+}
+.quem-whatsapp span{
+  
+    font-size: 15px;
+    top: 30px;
+}
+.quem-whatsapp img{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    top: -500px;
+}
+.vantagens{
+    top: 2000px;
+    height: 1350px;
+}
+.fotosTerapia img{
+    top: 5px;
+    width: 400px;
+    height: 400px;
+}
+.parte1 h2{
+    position: relative;
+    width: 400px;
+    height: 10px;
+    font-size: 17px;
+  left: 30px;
+   top: -390px;
+}
+.parte1 h1{
+    position: absolute;
+    font-size: 32px;
+    width: 400px;
+   left: 10px;
+   bottom: 1270px;
+}
+.parte1 p{
+    font-size:15px;
+    left: 30px;
+    width: 330px;
+    height: 400px;
+    bottom: 370px;
+}.parte2 div{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  
+}
+
+.divtwo div{
+    left: -140px;
+    bottom: 170px;
+    margin-bottom: 30px;
+}
+.divtwo div img{
+    left: 120px;
+}
+.divthree div img{
+    left: 120px;
+}
+.divthree div{
+    left: -140px;
+    bottom: -60px;
+    margin-bottom: 20px;
+}
+
+.container-main{
+    top: 2070px;
+    height: 1900px;
+    
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+}
+#next-button{
+    left: 355px;
+}
+.cont img {
+    width: 380px;
+    height: 270px;
+    left: -30px;
+  
+}
+.eightV{
+    display: none;
+}
+
+#next-button{
+    display: none;
+}
+#prev-button{
+    display: none;
+}
+
+.instagram{
+    top: 2100px;
+    height: 1110px;
+}
+.inst{
+    height: 60px;
+}
+.inst img{
+    width: 45px;
+    height: 45px;
+    right: 10px;
+}
+.inst h3{
+    position: relative;
+    left: 40px;
+    bottom: 70px;
+    font-size: 25px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    left: -10px;
+    margin-bottom: 5px;
+}
+.follow{
+    top: 1060px;
+    left: 70px;
+    background: #f3e8d6;
+}
+.perguntas{
+    top: 2120px;
+    height: 1000px;
+   left: 5px;
+}
+.perguntas h1{
+   left: 10px;
+}
+.sobrenos{
+    top: 2000px;
+    height: 660px;
+}
+.sobrenos div{
+    display: flex;
+    flex-direction: column;
+}
+.nome{
+    height: 170px !important;
+}
+.nome h2{
+    top: 30px;
+    
+}
+.face{
+    left: 30px;
+    top: 95px;
+}
+.insta{
+    left: 70px;
+    top: -45px;
+}
+.linksrapidos{
+    bottom: -10px;
+    left: -50px;
+}
+.linksrapidos h2{
+    left: 175px;
+}
+.atendimento{
+    left: 200px;
+    bottom: -60px;
+}
+.atendimento h2{
+    left: -130px;
+}
+.atendimento h4{
+    left: -140px;
+}
+.atendimento a{
+    left: -110px;
+    top: 120px;
+    background: #f3e8d6;
+}
+.copyright{
+    top: 2000px;
+    height: 100px;
+}
+}/*desktop*/
+@media (min-width:751px) and  (max-width: 1200px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .fixed-what{
+        position: fixed !important;
+      
+    }
+    .fixed-what a {
+        position: fixed !important;
+        top: 30% !important;
+        left: 480px;
+        z-index: 10100;
+    }
+
+    .fixed-what img{
+        width: 50px;
+        height: 50px;
+    }
+  .container{
+    height: 700px;
+  }
+    #header-img{
+        position: relative;
+        width: 180px;
+        height: 60px;
+    }
+    #header-h2{
+        font-size: 20px;
+       width: 200px;
+       bottom: 47px;
+        left:185px;
+    }
+    #h-a img{
+        width: 30px;
+        height: 30px;
+        bottom:90px;
+      left: 390px;
+    }
+    #h-a p{
+        left: 425px;
+        bottom: 115px;
+        font-size: 15px;
+    }
+    .imgsEli{
+        width: 500px;
+        height: 280px;
+        top: 20px;
+        left:  -7px;
+    }
+    .blocobranco{
+        top: 35px;
+        width: 500px;
+        left: -5px;
+        height: 376px;
+    }
+    .crp{
+        font-size: 33px;
+        
+        left: 20px;
+    }
+    .h1-psi{
+        top: 1px;
+        left: 100px;
+        font-size: 40px;
+    }
+    .h3-ter{
+        font-size: 20px;
+        top: -15px;
+    
+        left: 60PX;
+       
+    }
+    .list-p{
+        font-size: 15px;
+        top: -17px;
+        left: 90px;
+        color: black;
+    }
+    .list-p img{
+        width: 15px;
+        height: 15px;
+    }
+    .agende-whatsapp{
+        
+        width: 320px;
+        bottom: 32px;
+        height: 40px;
+        left: 80px;
+    }
+    .agende-whatsapp span {
+        font-size: 20px;
+        left: 50px;
+    }
+    .agende-whatsapp:active{
+        box-shadow: none;
+        border: 1px sloid whitesmoke;
+    }
+    .ele-a{
+        width: 30px;
+        height: 30px;
+       top: 4px;
+       left: 20px;
+    }
+
+    .tipo-consulta{
+        width: 101%;
+        display: flex;
+        flex-direction: column;
+        left: -1%;
+    }
+    
+    .consultas{
+        width: 440px;
+        height: 650px;
+        z-index: 9997;
+        left: -70px;
+        margin-top: 30px;
+    }
+    .adultos{
+        margin-left: 0;
+    }
+    .fotoConver{
+        position: relative;
+       right: 20px;
+    
+    }
+    .consultas h1{
+        font-size: 30px;
+        left: 30PX;
+    }
+    .consultas p{
+        width: 300px;
+    }
+    .con{
+        width: 240px;
+        height: 45px;
+        bottom: 30px;
+        background: #f3e8d6;
+    }
+    .imgcon1{
+        top: -3px;
+        left: 1px;
+    }
+    .con span{
+        font-size: 22px;
+    }
+    .con2{
+        position: relative;
+        display: inline-block;
+        width: 240px;
+        height: 45px;
+       top: -20px;
+        background: #f3e8d6;
+    }
+    .imgcon2{
+        top: -3px;
+        left: 1px;
+    }
+    .con2 span{
+        font-size: 22px;
+    }
+
+    .quem-eu-sou{
+        position: absolute;
+        top: 1400px;
+        height: 1300px;
+    }
+    .img-quem-sou-eu{
+        position: relative;
+        height: 300px;
+    }
+    .img-quem-sou-eu img{
+        top: 20px;
+        width: 370px;
+        left: 30px;
+        height: 300px;
+    }
+    .info{
+        top: 500px;
+    }
+    .info h3{
+        position: relative;
+        font-size: 20px;
+        bottom: 470px;
+        right: 700px;
+    }
+    .info h1{
+        position: relative;
+        font-size: 30px;
+        width: 300px;
+        bottom: 470px;
+        right: 700px;
+    }
+    .info p{
+        position: relative;
+        font-size: 20px;
+        width: 300px;
+        bottom: 470px;
+        right: 700px;
+    }
+    .cognitivo{
+        position: relative;
+        background: white;
+        border-radius: 20px;
+        border: 1px solid whitesmoke;
+     
+       
+    }
+    .cognitivo h2{
+        position: relative;
+        left: -640px;
+        top: -470px;
+        width: 50%;
+    }
+    .cognitivo p{
+        position: relative;
+        top: -470px;
+        left: -700px;
+        width: 350px;
+    }
+    .quem-whatsapp{
+       
+        width: 230px;
+        height: 50px;
+        left: -640px;
+        bottom: 230px;
+    }
+    .quem-whatsapp span{
+      
+        font-size: 15px;
+        top: 30px;
+    }
+    .quem-whatsapp img{
+        position: relative;
+        width: 35px;
+        height: 35px;
+        top: -500px;
+    }
+    .vantagens{
+        top: 2000px;
+        height: 1350px;
+    }
+    .fotosTerapia img{
+        top: 5px;
+        width: 400px;
+        height: 400px;
+    }
+    .parte1 h2{
+        position: relative;
+        width: 400px;
+        height: 10px;
+        font-size: 17px;
+      left: 30px;
+       top: -390px;
+    }
+    .parte1 h1{
+        position: absolute;
+        font-size: 32px;
+        width: 400px;
+       left: 10px;
+       bottom: 1270px;
+    }
+    .parte1 p{
+        font-size:15px;
+        left: 30px;
+        width: 330px;
+        height: 400px;
+        bottom: 370px;
+    }.parte2 div{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    
+    .divtwo div{
+        left: -140px;
+        bottom: 170px;
+        margin-bottom: 30px;
+    }
+    .divtwo div img{
+        left: 120px;
+    }
+    .divthree div img{
+        left: 120px;
+    }
+    .divthree div{
+        left: -140px;
+        bottom: -60px;
+        margin-bottom: 20px;
+    }
+    
+    .container-main{
+        top: 2070px;
+        height: 1900px;
+        
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        opacity: 1;
+    }
+    #next-button{
+        left: 355px;
+    }
+    .cont img {
+        width: 380px;
+        height: 270px;
+        left: -30px;
+      
+    }
+    .eightV{
+        display: none;
+    }
+    
+    #next-button{
+        display: none;
+    }
+    #prev-button{
+        display: none;
+    }
+    
+    .instagram{
+        top: 2100px;
+        height: 1110px;
+    }
+    .inst{
+        height: 60px;
+    }
+    .inst img{
+        width: 45px;
+        height: 45px;
+        right: 10px;
+    }
+    .inst h3{
+        position: relative;
+        left: 40px;
+        bottom: 70px;
+        font-size: 25px;
+    }
+    .post{
+        display: flex;
+        flex-direction: column;
+        left: -10px;
+        margin-bottom: 5px;
+    }
+    .follow{
+        top: 1060px;
+        left: 70px;
+        background: #f3e8d6;
+    }
+    .perguntas{
+        top: 2120px;
+        height: 1000px;
+       left: 5px;
+    }
+    .perguntas h1{
+       left: 10px;
+    }
+    .sobrenos{
+        top: 2000px;
+        height: 660px;
+    }
+    .sobrenos div{
+        display: flex;
+        flex-direction: column;
+    }
+    .nome{
+        height: 170px !important;
+    }
+    .nome h2{
+        top: 30px;
+        
+    }
+    .face{
+        left: 30px;
+        top: 95px;
+    }
+    .insta{
+        left: 70px;
+        top: -45px;
+    }
+    .linksrapidos{
+        bottom: -10px;
+        left: -50px;
+    }
+    .linksrapidos h2{
+        left: 175px;
+    }
+    .atendimento{
+        left: 200px;
+        bottom: -60px;
+    }
+    .atendimento h2{
+        left: -130px;
+    }
+    .atendimento h4{
+        left: -140px;
+    }
+    .atendimento a{
+        left: -110px;
+        top: 120px;
+        background: #f3e8d6;
+    }
+    .copyright{
+        top: 2000px;
+        height: 100px;
+    }
 }
