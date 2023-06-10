@@ -6,7 +6,11 @@ body{
     overflow-y: pointer 30px black;
     margin: 0;
     padding: 0;
+    background: rgb(230, 230, 250) !important;
   
+}
+header{
+    background: white;
 }
 .fixed-what{
     position: fixed;
@@ -15,6 +19,7 @@ body{
     left: 1300px;
     top: 600px;
     z-index: 10000;
+    
 }
 .fixed-what img{
     
@@ -23,7 +28,7 @@ body{
 }
 
 #h-a{
-   background: #f3e8d6;
+   background:  rgb(195, 195, 195);
     width: 300px !important;
     height: 50px;
     bottom: 200px;
@@ -45,7 +50,7 @@ body{
     bottom: 145px;
     text-decoration: none;
    
-    color: black;
+    color:black;
     font-weight: 700;
     font-size: 25px;
 }
@@ -54,10 +59,11 @@ body{
    left: 40%;
   font-size: 20px;
   bottom: 60px;
+ 
 }
 .crp{
     position: relative;
-    color: black;
+    color:whitesmoke;
 	font-family: "Segoe UI";
     left: 40px;
    
@@ -70,13 +76,14 @@ body{
     font-size: 50px;
     font-family: "Segoe UI";
     font-weight: 700;
-    color: #9c562a;
+    color:whitesmoke;
 }
 .h3-ter{
     position: relative;
     left: 40px;
     font-size: 20px;
     bottom: 30px;
+    color:whitesmoke;
     font-family: "Segoe UI";
     font-weight: 700;
 }
@@ -86,11 +93,15 @@ body{
     left: 30px;
     font-size: 18px;
     bottom: 30px;
+ 
     font-family: "Segoe UI";
     
 }
+.list-p span{
+    color:black;
+}
 .master{
-    background: #f3e8d6;
+     background: rgb(230, 230, 250);
     position: relative;
     top: -5px;
 }
@@ -132,23 +143,22 @@ left: -30px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
 .agende-whatsapp a{
-    text-decoration: #9c562a;
+    text-decoration: white;
 }
+
 .agende-whatsapp span{
     position: relative;
     top: 5px;
+    
 }
 .agende-whatsapp:hover{ 
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     box-shadow: none;
-    border: 1px solid whitesmoke;
+    border: 1px whitesmoke; //
 }
 .agende-whatsapp span:hover {
     position: relative;
- 
-    font-size: 28px;
-    left: 10px;
- 
+
 }
 .ele-a{
     position: relative;
@@ -162,9 +172,9 @@ left: -30px;
     position: relative;
     left: 20px;
     bottom: 5px;
-    color: #9c562a;
+    color:WHITE;
     font-size: 27px;
-    text-decoration: white;
+    text-decoration:black;
     font-family: "Segoe UI";
     font-weight: 750;
 }
@@ -202,14 +212,15 @@ border-radius: 20px;
   }
   .blocobranco{
     position: relative;
-    background: #f3e8d6;
+   background: rgb(195, 195, 195);
+
     border-radius: 20px;
 
     width: 32%;
     height: 430px;
     bottom: 500px;
     left: 2%;
-    border: 1px solid #9c562a;
+    border: 1px solid white;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 
   }
@@ -222,7 +233,7 @@ border-radius: 20px;
     width: 100%;
     height: 700px;
     width: 101%;
-    left: -1%;
+    left: 5%;
 }
 .consultas{
     position: relative;
@@ -234,7 +245,7 @@ border-radius: 20px;
     border: 1px solid black;
     width: 36%;
     height: 650px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     z-index: 9997;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
@@ -254,7 +265,7 @@ s
     left: 10px;
     bottom: 10px;
     font-size: 40px;
-    color: #9c562a;
+    color: white;
     font-weight: 700;
 }
 
@@ -272,9 +283,9 @@ s
     color: black;
     padding: 5px;
     width: 300px;
-    left: 25px;
+    left: 90px;
     bottom: 10px;
-    background: whitesmoke;
+    background:   rgb(195, 195, 195);
     border-radius: 30px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
@@ -288,7 +299,7 @@ s
 }
 
 .cons:hover{
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     box-shadow: none;
     border: 1px solid whitesmoke;
 }
@@ -301,9 +312,9 @@ s
     color: black;
     padding: 5px;
     width: 300px;
-    left: 25px;
+    left: 90px;
    top:45px;
-    background: whitesmoke;
+    background:   rgb(195, 195, 195);
     border-radius: 30px;
 }
 .con2 img{
@@ -318,7 +329,7 @@ s
     font-size:40px;
     left: 30px;
     font-family: "Arial";
-    color: #9c562a;
+    color: white;
     font-weight: 700;
 }
 .consultas a img{
@@ -335,11 +346,10 @@ s
 }
 .info{
     position: relative;
-    bottom: 170px;
     width: 30%;
     height: 700px;
     left: 740px;
-    bottom: 560px;
+    bottom: 610px;
     z-index: 9900;
 }
 .info h1{
@@ -352,17 +362,17 @@ s
     position: absolute; 
     width: 100%;
     height: 800px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
    top: 720px;
    
    z-index: 9899;
 }
 .img-quem-sou-eu img{
     position: relative;
-    width: 40%;
-    height: 600px;
-    left: 30px;
-   top: 60px;
+    width: 30%;
+    height: 650px;
+    left: 130px;
+   top: 70px;
    border-radius: 20px;
 }
 .quem-whatsapp{
@@ -371,23 +381,23 @@ s
     height: 60px;
     left: 20px;
     font-size: 18px;
-    bottom: -20px;
-    border-radius: 40px;
-    
+    bottom: -15px;
+    border-radius: 40px; 
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
 .quem-whatsapp a span{
   
    
     top: 5px;
-    left: 50px;
+    left: 80px;
 }
 .quem-whatsapp a img{
     position: absolute;
     top: 10px;
+    left: 15px;
 }
 .quem-whatsapp:hover{ 
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     box-shadow: none;
     border: 1px solid whitesmoke;
 }
@@ -400,7 +410,7 @@ s
 }
 .quem-a{
     position: relative;
-    top: 8px;
+    top: -4px;
     left: 8px;
     width: 40px;
     height: 40px;
@@ -408,13 +418,15 @@ s
     
 }
 .quem-agende{
-    text-decoration: #f3e8d6;
+   
+    text-decoration:  rgb(195, 195, 195);
+    
 }
 .quem-agende span{
     position: relative;
     left: 20px;
     bottom: 5px;
-    color: #9c562a;
+    color: white;
     font-size: 27px;
     text-decoration: white;
     font-family: "Segoe UI";
@@ -434,7 +446,8 @@ s
 .fotosTerapia img{
     position: relative;
     top: 10px;
-    width: 100%;
+    width: 80%;
+    left: 130px;
     height: 500px;
 }
 .parte1 h2{
@@ -457,7 +470,8 @@ s
     left: 420px;
     font-size: 20px;
     bottom: 510px;
-    color: black;
+    color:  black;
+    font-weight: 500;
 }
 .parte2{
     position: relative;
@@ -469,11 +483,11 @@ s
     flex-direction: row;
 }
 .divtwo div {
-    background:  #f3e8d6;
+    background:   rgb(195, 195, 195);
     position: relative;
     border: 1px solid black;
     border-radius: 20px;
-    bottom: 120px;
+    bottom: 30px;
     width: 450px;
     margin-right: 30px;
     left: 60px;
@@ -488,13 +502,17 @@ s
 }
 .divtwo div h2{
  position: relative;
- left: 20px;
- width: 90%;
+ left: 30px;
+ width: 93%;
+ color: white;
+ font-weight: 500;
 }
 .divtwo div p{
     position: relative;
     width: 90%;
     left: 25px;
+    font-weight: 500;
+    font-size: 20px;
 }
 .divthree{
     display: flex;
@@ -504,11 +522,11 @@ s
     position: relative;
     border: 1px solid black;
     border-radius: 20px;
-    bottom: 100px;
+    bottom: 10px;
     width: 450px;
     margin-right: 30px;
     left: 60px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .divthree div img{
     border-radius: 50%;
@@ -522,11 +540,15 @@ s
  position: relative;
  left: 15px;
  width: 98%;
+ color: white;
+ font-weight: 500;
 }
 .divthree div p{
     position: relative;
     width: 90%;
     left: 25px;
+    font-weight: 500;
+    font-size: 20px;
 }
 
 
@@ -558,86 +580,66 @@ s
     top: 830px;
 }
 
-.container-slider {
+.slide-item img{
+    width: 430PX;
+    height: 270PX;
+    margin-bottom: 30PX;
+}
+.tns-controls{
+    position: relative;
+    left: 550px;
+    border-radius: 20px;
+    width: 400px;
     display: flex;
-    width: 100%;
-    min-height: 100vh;
-  }
-  
-  .container-images {
-    width: 100%;
-    overflow: hidden;
-    flex-direction: row;
-  }
-  
-  .cont {
-    opacity: 0;
-    transition: opacity .2s;
-    display: flex;
-    flex-direction: row;
-  }
-  .cont1{
+    flex-direction: row ;
+    top: 10px;
+    
+    margin-bottom: 20px;
+}
+.tns-controls button{
     position: relative;
-    bottom: 270px;
-  }
-  .cont2{
-    position: relative;
-    bottom: 540px;
-  }
-  .slider {
-    position: relative;
-    top: 20px;
-    width: 300px;
-    height: 270px;
-    background: #F9F9F9;
-    border-radius: 10px;
-    margin-left: 45px;
-    left: 20px;
-  }
-  
-  .container-main {
-    position: relative;
-    top: 840px;
-    background: #f3e8d6;
-    height: 300px;
-    overflow: hidden;
-  }
-  
-  #prev-button, #next-button {
-    width: 30px;
-    height: 30px;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 20px;
     border: none;
-    background-color: transparent;
-    cursor: pointer;
-  }
-  
-  #prev-button img,
-  #next-button img {
-    width: 100%;
-    height: 100%;
-  }
-  
-  #prev-button {
-    position: absolute;
-    top: 150px;
-    left: -3px;
-    transform: rotate(180deg);
-    z-index: 9990;
-  }
-  
-  #next-button {
-    position: absolute;
-    top: 150px;
-    right: -3px;
-  }
-  
-  .cont.on {
-    opacity: 1;
-  }
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    border: none;
+ 
+}
+.tns-controls button #text{
+    font-weight: 700;
+}
+.tns-nav{
+    
+    position: relative;
+    left: 550px;
+    width: 400px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.tns-nav button{
+    width: 15px;
+    margin-left: 10px;
+    height: 15px; 
+    border-radius:15px ;
+   
+    border: none;
+}
+.tns-nav-active{
+    background-color: black;
+}
+ .container-main{
+    position: relative;
+    top: 950px;
+    background: rgb(195,195,195);
+ }
+
+
 
 .instagram{
     position: relative;
-    top: 860px;
+    top: 950px;
     width: 100%;
     height: 400px;
     border: 2px solid black;
@@ -646,7 +648,7 @@ s
 
 .perguntas{
     position: relative;
-    top: 900px;
+    top: 970px;
     left: 25px;
     width: 100%; 
     
@@ -663,23 +665,23 @@ s
    bottom: 10px;
    width: 100%;
    margin: 0;
-    left: 350px;
+    left: 500px;
     width: 600px;
     height: 30px;
     font-size: 30px;
-    color: #9c562a;
+    color: white;
  }
  .accordion-item button{
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     border-radius: 0px;
  }
 .sobrenos{
     position: relative;
-    top: 1450px;
+    top: 1600px;
     width: 100%;
     height: 320px;
 
-    background: #f3e8d6; 
+    background:  rgb(195, 195, 195); 
 }
 .sobrenos div{
     display: flex;
@@ -710,13 +712,13 @@ s
 
 .instagram{
     border: none;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .inst{
     position: relative;
     left: 30px;
     top: 30px;
-    text-decoration: #9c562a;
+    text-decoration: white;
     cursor: pointer;
 }.inst img{
     position: relative;
@@ -730,7 +732,7 @@ s
     left: 100px;
     bottom: 90px;
     
-    color: #9c562a;
+    color: white;
     font-size: 40px;
 }
 
@@ -810,12 +812,12 @@ top: 90px;
     left: 30px;
     bottom: -5px;
     font-size: 20px;
-    color: #9c562a;
+    color: white;
 }
 .follow:hover{
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     box-shadow: none;
-    text-decoration: #f3e8d6;
+    text-decoration:  rgb(195, 195, 195);
 }
 
 .accordion-header:active{
@@ -838,8 +840,8 @@ top: 90px;
     top: 40px;
     right: 80px;
     margin-top: 10px;
-    text-decoration: #f3e8d6 ;
-    color: #9c562a;
+    text-decoration:  rgb(195, 195, 195) ;
+    color: white;
     font-size: 25px;
 }
 .linksrapidos ul{
@@ -886,22 +888,22 @@ height: 40px;
     top: 160px;
     right: 80px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
-    text-decoration: #f3e8d6 !important;
+    text-decoration:  rgb(195, 195, 195) !important;
 }
 .atendimento a:hover{
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     ;
     border: 1px solid whitesmoke;
-    text-decoration: #f3e8d6 !important;
+    text-decoration:  rgb(195, 195, 195) !important;
     box-shadow: none;
 }
 .atendimento a span{
-    text-decoration: #f3e8d6 !important;
+    text-decoration:  rgb(195, 195, 195) !important;
     
     position: relative;
     left: 20px;
     top: 5px;
-    color: #9c562a;
+    color: white;
     font-weight: 700;
 }
 .atendimento a span img{
@@ -909,19 +911,19 @@ height: 40px;
 }
 
 .copyright{
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
     border-top: 1px solid whitesmoke;
     position: relative;
     width: 100%;
     height: 60px;
-    top: 1450px;
+    top: 1580px;
 }
 .copyright p{
     display: flex;
     justify-content: center;
     position: relative;
     top: 20px;
-    color: #9c562a;
+    color: white;
 }
 
 .fotoConver{
@@ -1061,7 +1063,7 @@ body{
     width: 240px;
     height: 45px;
     bottom: 30px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .imgcon1{
     top: -3px;
@@ -1076,7 +1078,7 @@ body{
     width: 240px;
     height: 45px;
    top: -20px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .imgcon2{
     top: -3px;
@@ -1273,7 +1275,7 @@ body{
 .follow{
     top: 1060px;
     left: 70px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .perguntas{
     top: 2120px;
@@ -1326,7 +1328,7 @@ body{
 .atendimento a{
     left: -110px;
     top: 120px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .copyright{
     top: 2000px;
@@ -1469,7 +1471,7 @@ body{
         width: 240px;
         height: 45px;
         bottom: 30px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .imgcon1{
         top: -3px;
@@ -1484,7 +1486,7 @@ body{
         width: 240px;
         height: 45px;
        top: -20px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .imgcon2{
         top: -3px;
@@ -1682,7 +1684,7 @@ body{
     .follow{
         top: 1060px;
         left: 70px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .perguntas{
         top: 2120px;
@@ -1735,7 +1737,7 @@ body{
     .atendimento a{
         left: -110px;
         top: 120px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .copyright{
         top: 2000px;
@@ -1878,7 +1880,7 @@ body{
             width: 240px;
             height: 45px;
             bottom: 30px;
-            background: #f3e8d6;
+            background:  rgb(195, 195, 195);
         }
         .imgcon1{
             top: -3px;
@@ -1893,7 +1895,7 @@ body{
             width: 240px;
             height: 45px;
            top: -20px;
-            background: #f3e8d6;
+            background:  rgb(195, 195, 195);
         }
         .imgcon2{
             top: -3px;
@@ -2091,7 +2093,7 @@ body{
 .follow{
     top: 1060px;
     left: 70px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .perguntas{
     top: 2120px;
@@ -2144,7 +2146,7 @@ body{
 .atendimento a{
     left: -110px;
     top: 120px;
-    background: #f3e8d6;
+    background:  rgb(195, 195, 195);
 }
 .copyright{
     top: 2000px;
@@ -2290,7 +2292,7 @@ body{
         width: 240px;
         height: 45px;
         bottom: 30px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .imgcon1{
         top: -3px;
@@ -2305,7 +2307,7 @@ body{
         width: 240px;
         height: 45px;
        top: -20px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .imgcon2{
         top: -3px;
@@ -2503,7 +2505,7 @@ body{
     .follow{
         top: 1060px;
         left: 70px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .perguntas{
         top: 2120px;
@@ -2556,7 +2558,7 @@ body{
     .atendimento a{
         left: -110px;
         top: 120px;
-        background: #f3e8d6;
+        background:  rgb(195, 195, 195);
     }
     .copyright{
         top: 2000px;
