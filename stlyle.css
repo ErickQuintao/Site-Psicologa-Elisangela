@@ -154,7 +154,7 @@ left: -30px;
 .agende-whatsapp:hover{ 
     background:  rgb(195, 195, 195);
     box-shadow: none;
-    border: 1px whitesmoke; //
+    border: 1px whitesmoke; 
 }
 .agende-whatsapp span:hover {
     position: relative;
@@ -263,17 +263,21 @@ s
 }
 .consultas h1{
     position: relative;
-    left: 10px;
+    left: 70px;
     bottom: 10px;
     font-size: 40px;
     color: white;
     font-weight: 700;
 }
-
+.fotoConver{
+    position: relative;
+    left: 70px;
+    border-radius: 20px;
+}
 .consultas p{
     position: relative;
     width: 380px;
-    left: -5px;
+    left: 70px;
     bottom: 20px;
     font-size: 18px;
 }
@@ -313,7 +317,7 @@ s
     color: black;
     padding: 5px;
     width: 300px;
-    left: 40px;
+    left: 90px;
    top:45px;
     background:   rgb(195, 195, 195);
     border-radius: 30px;
@@ -336,6 +340,7 @@ s
 .consultas a img{
     width: 40px;
     height: 40px;
+   
 }
 
 
@@ -928,9 +933,7 @@ height: 40px;
     color: white;
 }
 
-.fotoConver{
-     margin-left: 135px;
-}
+
 .consulta{
     background:  rgb(195, 195, 195) !important;
 }
@@ -981,10 +984,10 @@ body{
     font-size: 16px;
 }
 .imgsEli{
-    width: 370px;
+    width: 90%;
     height: 250px;
     top: 20px;
-    left:  -7px;
+    left:  5px;
 }
 .blocobranco{
     top: 40px;
@@ -1053,9 +1056,12 @@ body{
     left: 20px;
     margin-top: 30px;
 }
+.consultas:hover{
+    left: 20px;
+}
 .fotoConver{
     position: relative;
-   right: 20px;
+   left: 120px;
 
 }
 .consultas h1{
@@ -1064,6 +1070,7 @@ body{
 }
 .consultas p{
     width: 300px;
+    left: 20px;
 }
 .con{
     width: 240px;
@@ -1073,9 +1080,7 @@ body{
     left: 40px;
     box-shadow: none;
 }
-.con:active{
-    left: -200px;
-}
+
 .imgcon1{
     top: -3px;
     left: 1px;
@@ -1089,6 +1094,7 @@ body{
     width: 240px;
     height: 45px;
    top: -20px;
+   left: 40px;
     background:  rgb(195, 195, 195);
 }
 .imgcon2{
@@ -1102,6 +1108,7 @@ body{
     position: absolute;
     top: 1400px;
     height: 1300px;
+    right: -3px;
 }
 .img-quem-sou-eu{
     position: relative;
@@ -1109,8 +1116,8 @@ body{
 }
 .img-quem-sou-eu img{
     top: 20px;
-    width: 370px;
-    left: 30px;
+    width: 280px;
+    left: 40px;
     height: 300px;
 }
 .info{
@@ -1121,6 +1128,7 @@ body{
     font-size: 20px;
     bottom: 470px;
     right: 700px;
+    color: white;
 }
 .info h1{
     position: relative;
@@ -1128,6 +1136,7 @@ body{
     width: 300px;
     bottom: 470px;
     right: 700px;
+    color: white;
 }
 .info p{
     position: relative;
@@ -1135,38 +1144,38 @@ body{
     width: 300px;
     bottom: 470px;
     right: 700px;
+    font-weight: 500;
 }
 .cognitivo{
-    position: relative;
-    background: white;
     border-radius: 20px;
     border: 1px solid whitesmoke;
- 
-   
 }
 .cognitivo h2{
     position: relative;
     left: -640px;
     top: -470px;
     width: 50%;
+    color: white;
 }
 .cognitivo p{
     position: relative;
     top: -470px;
     left: -700px;
     width: 350px;
+    color: white;
 }
 .quem-whatsapp{
    
     width: 230px;
     height: 50px;
-    left: -640px;
+    left: -660px;
     bottom: 230px;
 }
-.quem-whatsapp span{
+.quem-whatsapp a span{
   
-    font-size: 15px;
-    top: 30px;
+    font-size: 19px;
+    top: 10px;
+    left: 60px;
 }
 .quem-whatsapp img{
     position: relative;
@@ -1179,9 +1188,10 @@ body{
     height: 1350px;
 }
 .fotosTerapia img{
-    top: 5px;
-    width: 400px;
+    top: 1px;
+    width: 100%;
     height: 400px;
+    left:1px;
 }
 .parte1 h2{
     position: relative;
@@ -1201,9 +1211,10 @@ body{
 .parte1 p{
     font-size:15px;
     left: 30px;
-    width: 330px;
+    width: 91%;
     height: 400px;
     bottom: 370px;
+    font-weight: 500;
 }.parte2 div{
     width: 300px;
     height: 300px;
@@ -1214,7 +1225,7 @@ body{
 
 .divtwo div{
     left: -140px;
-    bottom: 170px;
+    bottom: 140px;
     margin-bottom: 30px;
 }
 .divtwo div img{
@@ -1225,43 +1236,29 @@ body{
 }
 .divthree div{
     left: -140px;
-    bottom: -60px;
+    bottom: -140px;
     margin-bottom: 20px;
 }
+.div3 p{
+    font-size: 17px !important;
 
+}
 .container-main{
-    top: 2070px;
-    height: 1900px;
+    top: 2150px;
+    height: 370px;
     
 }
-.cont{
-    display: flex;
-    flex-direction: column;
-    opacity: 1;
+.tns-controls{
+    left: 80px;
 }
-#next-button{
-    left: 355px;
+.tns-nav{
+    left: 105px;
+    bottom: 15px;
 }
-.cont img {
-    width: 380px;
-    height: 270px;
-    left: -30px;
-  
-}
-.eightV{
-    display: none;
-}
-
-#next-button{
-    display: none;
-}
-#prev-button{
-    display: none;
-}
-
 .instagram{
-    top: 2100px;
+    top: 2151px;
     height: 1110px;
+    width: 1005;
 }
 .inst{
     height: 60px;
@@ -1280,8 +1277,9 @@ body{
 .post{
     display: flex;
     flex-direction: column;
-    left: -10px;
+    left: -35px;
     margin-bottom: 5px;
+    top: -28px;
 }
 .follow{
     top: 1060px;
@@ -1289,7 +1287,7 @@ body{
     background:  rgb(195, 195, 195);
 }
 .perguntas{
-    top: 2120px;
+    top: 2160px;
     height: 1000px;
    left: 5px;
 }
@@ -1352,898 +1350,85 @@ body{
         width: 100%;
         height: 100%;
     }
+    header{
+        width: 100% !important;
+    }
     .fixed-what{
         position: fixed !important;
       
     }
     .fixed-what a {
         position: fixed !important;
-        top: 30% !important;
-        left: 480px;
+        top: 65% !important;
+        left: 780px;
         z-index: 10100;
     }
 
     .fixed-what img{
-        width: 50px;
-        height: 50px;
+        width: 70px;
+        height: 70px;
+       
     }
   .container{
     height: 700px;
   }
     #header-img{
         position: relative;
-        width: 180px;
+        width: 35%;
         height: 60px;
+        top: 5px;
     }
     #header-h2{
-        font-size: 20px;
-       width: 200px;
+        font-size: 25px;
+       width: 300px;
        bottom: 47px;
-        left:185px;
+        left:370px;
     }
     #h-a img{
-        width: 30px;
-        height: 30px;
-        bottom:90px;
-      left: 390px;
+        width: 50px;
+        height: 50px;
+        bottom:105px;
+      left: 620px;
     }
     #h-a p{
-        left: 425px;
-        bottom: 115px;
-        font-size: 15px;
+        left: 680px;
+        bottom: 150px;
+        font-size: 25px;
     }
     .imgsEli{
-        width: 500px;
-        height: 280px;
+        width: 70%;
+        height: 320px;
         top: 20px;
-        left:  -7px;
+        left: 100px ;
     }
     .blocobranco{
         top: 35px;
-        width: 500px;
-        left: -5px;
-        height: 376px;
-    }
-    .crp{
-        font-size: 33px;
-        
-        left: 20px;
-    }
-    .h1-psi{
-        top: 1px;
-        left: 100px;
-        font-size: 40px;
-    }
-    .h3-ter{
-        font-size: 20px;
-        top: -15px;
-    
-        left: 60PX;
-       
-    }
-    .list-p{
-        font-size: 15px;
-        top: -17px;
-        left: 90px;
-        color: black;
-    }
-    .list-p img{
-        width: 15px;
-        height: 15px;
-    }
-    .agende-whatsapp{
-        
-        width: 320px;
-        bottom: 32px;
-        height: 40px;
-        left: 80px;
-    }
-    .agende-whatsapp span {
-        font-size: 20px;
-        left: 50px;
-    }
-    .agende-whatsapp:active{
-        box-shadow: none;
-        border: 1px sloid whitesmoke;
-    }
-    .ele-a{
-        width: 30px;
-        height: 30px;
-       top: 4px;
-       left: 20px;
-    }
-
-    .tipo-consulta{
-        width: 101%;
-        display: flex;
-        flex-direction: column;
-        left: -1%;
-    }
-    
-    .consultas{
-        width: 430px;
-        height: 650px;
-        z-index: 9997;
-        left: -10px;
-        margin-top: 30px;
-    }
-    .fotoConver{
-        position: relative;
-       right: 20px;
-    
-    }
-    .consultas h1{
-        font-size: 30px;
-        left: 30PX;
-    }
-    .consultas p{
-        width: 300px;
-    }
-    .con{
-        width: 240px;
-        height: 45px;
-        bottom: 30px;
-        background:  rgb(195, 195, 195);
-    }
-    .imgcon1{
-        top: -3px;
-        left: 1px;
-    }
-    .con span{
-        font-size: 22px;
-    }
-    .con2{
-        position: relative;
-        display: inline-block;
-        width: 240px;
-        height: 45px;
-       top: -20px;
-        background:  rgb(195, 195, 195);
-    }
-    .imgcon2{
-        top: -3px;
-        left: 1px;
-    }
-    .con2 span{
-        font-size: 22px;
-    }
-
-    .quem-eu-sou{
-        position: absolute;
-        top: 1400px;
-        height: 1300px;
-    }
-    .img-quem-sou-eu{
-        position: relative;
-        height: 300px;
-    }
-    .img-quem-sou-eu img{
-        top: 20px;
-        width: 370px;
-        left: 30px;
-        height: 300px;
-    }
-    .info{
-        top: 500px;
-    }
-    .info h3{
-        position: relative;
-        font-size: 20px;
-        bottom: 470px;
-        right: 700px;
-    }
-    .info h1{
-        position: relative;
-        font-size: 30px;
-        width: 300px;
-        bottom: 470px;
-        right: 700px;
-    }
-    .info p{
-        position: relative;
-        font-size: 20px;
-        width: 300px;
-        bottom: 470px;
-        right: 700px;
-    }
-    .cognitivo{
-        position: relative;
-        background: white;
-        border-radius: 20px;
-        border: 1px solid whitesmoke;
-     
-       
-    }
-    .cognitivo h2{
-        position: relative;
-        left: -640px;
-        top: -470px;
-        width: 50%;
-    }
-    .cognitivo p{
-        position: relative;
-        top: -470px;
-        left: -700px;
-        width: 350px;
-    }
-    .quem-whatsapp{
-       
-        width: 230px;
-        height: 50px;
-        left: -640px;
-        bottom: 230px;
-    }
-    .quem-whatsapp span{
-      
-        font-size: 15px;
-        top: 30px;
-    }
-    .quem-whatsapp img{
-        position: relative;
-        width: 35px;
-        height: 35px;
-        top: -500px;
-    }
-    .vantagens{
-        top: 2000px;
-        height: 1350px;
-    }
-    .fotosTerapia img{
-        top: 5px;
-        width: 400px;
-        height: 400px;
-    }
-    .parte1 h2{
-        position: relative;
-        width: 400px;
-        height: 10px;
-        font-size: 17px;
-      left: 30px;
-       top: -390px;
-    }
-    .parte1 h1{
-        position: absolute;
-        font-size: 32px;
-        width: 400px;
-       left: 10px;
-       bottom: 1270px;
-    }
-    .parte1 p{
-        font-size:15px;
-        left: 30px;
-        width: 330px;
-        height: 400px;
-        bottom: 370px;
-    }.parte2 div{
-        width: 300px;
-        height: 300px;
-        display: flex;
-        flex-direction: column;
-      
-    }
-    
-    .divtwo div{
-        left: -140px;
-        bottom: 170px;
-        margin-bottom: 30px;
-    }
-    .divtwo div img{
-        left: 120px;
-    }
-    .divthree div img{
-        left: 120px;
-    }
-    .divthree div{
-        left: -140px;
-        bottom: -60px;
-        margin-bottom: 20px;
-    }
-    
-    .container-main{
-        top: 2070px;
-        height: 1900px;
-        
-    }
-    .cont{
-        display: flex;
-        flex-direction: column;
-        opacity: 1;
-    }
-    #next-button{
-        left: 355px;
-    }
-    .cont img {
-        width: 380px;
-        height: 270px;
-        left: -30px;
-      
-    }
-    .eightV{
-        display: none;
-    }
-    
-    #next-button{
-        display: none;
-    }
-    #prev-button{
-        display: none;
-    }
-    
-    .instagram{
-        top: 2100px;
-        height: 1110px;
-    }
-    .inst{
-        height: 60px;
-    }
-    .inst img{
-        width: 45px;
-        height: 45px;
-        right: 10px;
-    }
-    .inst h3{
-        position: relative;
-        left: 40px;
-        bottom: 70px;
-        font-size: 25px;
-    }
-    .post{
-        display: flex;
-        flex-direction: column;
-        left: -10px;
-        margin-bottom: 5px;
-    }
-    .follow{
-        top: 1060px;
-        left: 70px;
-        background:  rgb(195, 195, 195);
-    }
-    .perguntas{
-        top: 2120px;
-        height: 1000px;
-       left: 5px;
-    }
-    .perguntas h1{
-       left: 10px;
-    }
-    .sobrenos{
-        top: 2000px;
-        height: 660px;
-    }
-    .sobrenos div{
-        display: flex;
-        flex-direction: column;
-    }
-    .nome{
-        height: 170px !important;
-    }
-    .nome h2{
-        top: 30px;
-        
-    }
-    .face{
-        left: 30px;
-        top: 95px;
-    }
-    .insta{
-        left: 70px;
-        top: -45px;
-    }
-    .linksrapidos{
-        bottom: -10px;
-        left: -50px;
-    }
-    .linksrapidos h2{
-        left: 175px;
-    }
-    .atendimento{
-        left: 200px;
-        bottom: -60px;
-    }
-    .atendimento h2{
-        left: -130px;
-    }
-    .atendimento h4{
-        left: -140px;
-    }
-    .atendimento a{
-        left: -110px;
-        top: 120px;
-        background:  rgb(195, 195, 195);
-    }
-    .copyright{
-        top: 2000px;
-        height: 100px;
-    }
-    }/*desktop*/
-    @media (min-width:751px) and  (max-width: 1000px){
-        body{
-            width: 100%;
-            height: 100%;
-        }
-        .fixed-what{
-            position: fixed !important;
-          
-        }
-        .fixed-what a {
-            position: fixed !important;
-            top: 30% !important;
-            left: 480px;
-            z-index: 10100;
-        }
-    
-        .fixed-what img{
-            width: 50px;
-            height: 50px;
-        }
-      .container{
-        height: 700px;
-      }
-        #header-img{
-            position: relative;
-            width: 180px;
-            height: 60px;
-        }
-        #header-h2{
-            font-size: 20px;
-           width: 200px;
-           bottom: 47px;
-            left:185px;
-        }
-        #h-a img{
-            width: 30px;
-            height: 30px;
-            bottom:90px;
-          left: 390px;
-        }
-        #h-a p{
-            left: 425px;
-            bottom: 115px;
-            font-size: 15px;
-        }
-        .imgsEli{
-            width: 500px;
-            height: 280px;
-            top: 20px;
-            left:  -7px;
-        }
-        .blocobranco{
-            top: 35px;
-            width: 500px;
-            left: -5px;
-            height: 376px;
-        }
-        .crp{
-            font-size: 33px;
-            
-            left: 20px;
-        }
-        .h1-psi{
-            top: 1px;
-            left: 100px;
-            font-size: 40px;
-        }
-        .h3-ter{
-            font-size: 20px;
-            top: -15px;
-        
-            left: 60PX;
-           
-        }
-        .list-p{
-            font-size: 15px;
-            top: -17px;
-            left: 90px;
-            color: black;
-        }
-        .list-p img{
-            width: 15px;
-            height: 15px;
-        }
-        .agende-whatsapp{
-            
-            width: 320px;
-            bottom: 32px;
-            height: 40px;
-            left: 80px;
-        }
-        .agende-whatsapp span {
-            font-size: 20px;
-            left: 50px;
-        }
-        .agende-whatsapp:active{
-            box-shadow: none;
-            border: 1px sloid whitesmoke;
-        }
-        .ele-a{
-            width: 30px;
-            height: 30px;
-           top: 4px;
-           left: 20px;
-        }
-    
-        .tipo-consulta{
-            width: 101%;
-            display: flex;
-            flex-direction: column;
-            left: -1%;
-        }
-        
-        .consultas{
-            width: 430px;
-            height: 650px;
-            z-index: 9997;
-            left: -10px;
-            margin-top: 30px;
-        }
-        .fotoConver{
-            position: relative;
-           right: 20px;
-        
-        }
-        .consultas h1{
-            font-size: 30px;
-            left: 30PX;
-        }
-        .consultas p{
-            width: 300px;
-        }
-        .con{
-            width: 240px;
-            height: 45px;
-            bottom: 30px;
-            background:  rgb(195, 195, 195);
-        }
-        .imgcon1{
-            top: -3px;
-            left: 1px;
-        }
-        .con span{
-            font-size: 22px;
-        }
-        .con2{
-            position: relative;
-            display: inline-block;
-            width: 240px;
-            height: 45px;
-           top: -20px;
-            background:  rgb(195, 195, 195);
-        }
-        .imgcon2{
-            top: -3px;
-            left: 1px;
-        }
-        .con2 span{
-            font-size: 22px;
-        }
-    
-        .quem-eu-sou{
-    position: absolute;
-    top: 1400px;
-    height: 1300px;
-}
-.img-quem-sou-eu{
-    position: relative;
-    height: 300px;
-}
-.img-quem-sou-eu img{
-    top: 20px;
-    width: 370px;
-    left: 30px;
-    height: 300px;
-}
-.info{
-    top: 500px;
-}
-.info h3{
-    position: relative;
-    font-size: 20px;
-    bottom: 470px;
-    right: 700px;
-}
-.info h1{
-    position: relative;
-    font-size: 30px;
-    width: 300px;
-    bottom: 470px;
-    right: 700px;
-}
-.info p{
-    position: relative;
-    font-size: 20px;
-    width: 300px;
-    bottom: 470px;
-    right: 700px;
-}
-.cognitivo{
-    position: relative;
-    background: white;
-    border-radius: 20px;
-    border: 1px solid whitesmoke;
- 
-   
-}
-.cognitivo h2{
-    position: relative;
-    left: -640px;
-    top: -470px;
-    width: 50%;
-}
-.cognitivo p{
-    position: relative;
-    top: -470px;
-    left: -700px;
-    width: 350px;
-}
-.quem-whatsapp{
-   
-    width: 230px;
-    height: 50px;
-    left: -640px;
-    bottom: 230px;
-}
-.quem-whatsapp span{
-  
-    font-size: 15px;
-    top: 30px;
-}
-.quem-whatsapp img{
-    position: relative;
-    width: 35px;
-    height: 35px;
-    top: -500px;
-}
-.vantagens{
-    top: 2000px;
-    height: 1350px;
-}
-.fotosTerapia img{
-    top: 5px;
-    width: 400px;
-    height: 400px;
-}
-.parte1 h2{
-    position: relative;
-    width: 400px;
-    height: 10px;
-    font-size: 17px;
-  left: 30px;
-   top: -390px;
-}
-.parte1 h1{
-    position: absolute;
-    font-size: 32px;
-    width: 400px;
-   left: 10px;
-   bottom: 1270px;
-}
-.parte1 p{
-    font-size:15px;
-    left: 30px;
-    width: 330px;
-    height: 400px;
-    bottom: 370px;
-}.parte2 div{
-    width: 300px;
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-  
-}
-
-.divtwo div{
-    left: -140px;
-    bottom: 170px;
-    margin-bottom: 30px;
-}
-.divtwo div img{
-    left: 120px;
-}
-.divthree div img{
-    left: 120px;
-}
-.divthree div{
-    left: -140px;
-    bottom: -60px;
-    margin-bottom: 20px;
-}
-
-.container-main{
-    top: 2070px;
-    height: 1900px;
-    
-}
-.cont{
-    display: flex;
-    flex-direction: column;
-    opacity: 1;
-}
-#next-button{
-    left: 355px;
-}
-.cont img {
-    width: 380px;
-    height: 270px;
-    left: -30px;
-  
-}
-.eightV{
-    display: none;
-}
-
-#next-button{
-    display: none;
-}
-#prev-button{
-    display: none;
-}
-
-.instagram{
-    top: 2100px;
-    height: 1110px;
-}
-.inst{
-    height: 60px;
-}
-.inst img{
-    width: 45px;
-    height: 45px;
-    right: 10px;
-}
-.inst h3{
-    position: relative;
-    left: 40px;
-    bottom: 70px;
-    font-size: 25px;
-}
-.post{
-    display: flex;
-    flex-direction: column;
-    left: -10px;
-    margin-bottom: 5px;
-}
-.follow{
-    top: 1060px;
-    left: 70px;
-    background:  rgb(195, 195, 195);
-}
-.perguntas{
-    top: 2120px;
-    height: 1000px;
-   left: 5px;
-}
-.perguntas h1{
-   left: 10px;
-}
-.sobrenos{
-    top: 2000px;
-    height: 660px;
-}
-.sobrenos div{
-    display: flex;
-    flex-direction: column;
-}
-.nome{
-    height: 170px !important;
-}
-.nome h2{
-    top: 30px;
-    
-}
-.face{
-    left: 30px;
-    top: 95px;
-}
-.insta{
-    left: 70px;
-    top: -45px;
-}
-.linksrapidos{
-    bottom: -10px;
-    left: -50px;
-}
-.linksrapidos h2{
-    left: 175px;
-}
-.atendimento{
-    left: 200px;
-    bottom: -60px;
-}
-.atendimento h2{
-    left: -130px;
-}
-.atendimento h4{
-    left: -140px;
-}
-.atendimento a{
-    left: -110px;
-    top: 120px;
-    background:  rgb(195, 195, 195);
-}
-.copyright{
-    top: 2000px;
-    height: 100px;
-}
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
-}/*desktop*/
-@media (min-width:1001px) and  (max-width: 1200px){
-    body{
         width: 100%;
-        height: 100%;
-    }
-    .fixed-what{
-        position: fixed !important;
-      
-    }
-    .fixed-what a {
-        position: fixed !important;
-        top: 30% !important;
-        left: 480px;
-        z-index: 10100;
-    }
-
-    .fixed-what img{
-        width: 50px;
-        height: 50px;
-    }
-  .container{
-    height: 700px;
-  }
-    #header-img{
-        position: relative;
-        width: 180px;
-        height: 60px;
-    }
-    #header-h2{
-        font-size: 20px;
-       width: 200px;
-       bottom: 47px;
-        left:185px;
-    }
-    #h-a img{
-        width: 30px;
-        height: 30px;
-        bottom:90px;
-      left: 390px;
-    }
-    #h-a p{
-        left: 425px;
-        bottom: 115px;
-        font-size: 15px;
-    }
-    .imgsEli{
-        width: 500px;
-        height: 280px;
-        top: 20px;
-        left:  -7px;
-    }
-    .blocobranco{
-        top: 35px;
-        width: 500px;
         left: -5px;
         height: 376px;
     }
     .crp{
         font-size: 33px;
         
-        left: 20px;
+        left: 140px;
     }
     .h1-psi{
         top: 1px;
-        left: 100px;
+        left: 200px;
         font-size: 40px;
     }
     .h3-ter{
         font-size: 20px;
         top: -15px;
     
-        left: 60PX;
+        left: 190PX;
        
     }
     .list-p{
         font-size: 15px;
         top: -17px;
-        left: 90px;
+        
+        left: 250px;
         color: black;
     }
     .list-p img{
@@ -2255,7 +1440,7 @@ body{
         width: 320px;
         bottom: 32px;
         height: 40px;
-        left: 80px;
+        left: 190px;
     }
     .agende-whatsapp span {
         font-size: 20px;
@@ -2280,32 +1465,37 @@ body{
     }
     
     .consultas{
-        width: 440px;
+        width: 680px;
         height: 650px;
         z-index: 9997;
-        left: -70px;
+        left: 115px;
         margin-top: 30px;
     }
-    .adultos{
-        margin-left: 0;
+    .consultas:hover{
+        left: 115px;
     }
     .fotoConver{
         position: relative;
-       right: 20px;
+       right: -150px;
     
     }
     .consultas h1{
         font-size: 30px;
-        left: 30PX;
+        left: 210PX;
+        
     }
     .consultas p{
-        width: 300px;
+        width: 70%;
+        left: 110px;
+        font-weight: 500;
+        color: white;
     }
     .con{
         width: 240px;
         height: 45px;
         bottom: 30px;
         background:  rgb(195, 195, 195);
+        left: 200px;
     }
     .imgcon1{
         top: -3px;
@@ -2321,6 +1511,7 @@ body{
         height: 45px;
        top: -20px;
         background:  rgb(195, 195, 195);
+        left: 200px;
     }
     .imgcon2{
         top: -3px;
@@ -2332,8 +1523,9 @@ body{
 
     .quem-eu-sou{
         position: absolute;
-        top: 1400px;
-        height: 1300px;
+        top: 1200px;
+        height: 990px;
+        left: 5px;
     }
     .img-quem-sou-eu{
         position: relative;
@@ -2341,64 +1533,70 @@ body{
     }
     .img-quem-sou-eu img{
         top: 20px;
-        width: 370px;
+        width: 40%;
         left: 30px;
-        height: 300px;
+        height: 800px;
     }
     .info{
-        top: 500px;
+        top: 220px;
     }
     .info h3{
         position: relative;
         font-size: 20px;
         bottom: 470px;
-        right: 700px;
+        right: 260px;
+        color: white;
     }
     .info h1{
         position: relative;
         font-size: 30px;
         width: 300px;
         bottom: 470px;
-        right: 700px;
+        right: 260px;
+        color: white;
     }
     .info p{
         position: relative;
         font-size: 20px;
         width: 300px;
         bottom: 470px;
-        right: 700px;
+        right: 260px;
+        color: white;
+        font-weight: 400;
     }
     .cognitivo{
         position: relative;
         background: white;
         border-radius: 20px;
         border: 1px solid whitesmoke;
-     
-       
+     right: 300px;
+       bottom: 450px;
+       height: 250px;
     }
     .cognitivo h2{
-        position: relative;
-        left: -640px;
-        top: -470px;
-        width: 50%;
+   
+        width: 100%;
     }
     .cognitivo p{
-        position: relative;
-        top: -470px;
-        left: -700px;
         width: 350px;
+        top: 10px;
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
     }
     .quem-whatsapp{
        
         width: 230px;
         height: 50px;
-        left: -640px;
-        bottom: 230px;
+        left: -210px;
+        bottom: 270px; 
+        background:  rgb(195, 195, 195);
     }
-    .quem-whatsapp span{
+    .quem-whatsapp a span{
       
-        font-size: 15px;
-        top: 30px;
+        font-size: 20px;
+     left: 55px;
+     top: 10px;
     }
     .quem-whatsapp img{
         position: relative;
@@ -2407,17 +1605,19 @@ body{
         top: -500px;
     }
     .vantagens{
-        top: 2000px;
-        height: 1350px;
+        top: 1485px;
+        height: 500px;
+        left: 300px;
     }
     .fotosTerapia img{
         top: 5px;
-        width: 400px;
+        width: 100%;
         height: 400px;
+        left: -300px;
     }
     .parte1 h2{
         position: relative;
-        width: 400px;
+        width: 100%;
         height: 10px;
         font-size: 17px;
       left: 30px;
@@ -2432,105 +1632,147 @@ body{
     }
     .parte1 p{
         font-size:15px;
-        left: 30px;
-        width: 330px;
+        left: -100px;
+        width: 70%;
         height: 400px;
         bottom: 370px;
-    }.parte2 div{
-        width: 300px;
+        font-weight: 500;
+    }.parte2 div div{
+        width: 430px;
         height: 300px;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
       
     }
-    
-    .divtwo div{
-        left: -140px;
-        bottom: 170px;
-        margin-bottom: 30px;
+    .divtwo div {
+        background:   rgb(195, 195, 195);
+       
+        border-radius: 20px;
+        bottom: 30px;
+        margin-right: 30px;
+        left: -475px;
     }
     .divtwo div img{
-        left: 120px;
+        border-radius: 50%;
+        position: relative;
+        left: 190PX;
+        top: 1PX;
+        width: 50PX;
+        height: 50px;
+    }
+    .divtwo div h2{
+     min-width: 350px;
+     left: 10px;
+     height: 100px;
+     top: 45px;
+     color: white;
+     font-weight: 500;
+     font-size: 27px;
+    }
+    .divtwo div p{
+      position: relative;
+      min-width: 350px;
+        left: -340px;
+        top: 140px;
+        height: 80px;
+        font-weight: 500;
+        z-index: 9000;
+        font-size: 23px;
+    }
+    .divthree div {
+        position: relative;
+        border-radius: 20px;
+        bottom: 10px;
+        margin-right: 30px;
+        left: -475px;
+        background:  rgb(195, 195, 195);
     }
     .divthree div img{
-        left: 120px;
+        border-radius: 50%;
+        position: relative;
+        left: 200PX;
+        top: -1PX;
+        width: 50PX;
+        height: 50px;
     }
-    .divthree div{
-        left: -140px;
-        bottom: -60px;
-        margin-bottom: 20px;
+    .divthree  div h2{
+        min-width: 350px;
+        left: -20px;
+        top: 45px;
+        width: 100%;
+        color: white;
+        font-weight: 500;
+        font-size: 27px;
+    }
+    .divthree div p{
+        min-width: 350px;
+        position: relative;
+        width: 360px ;
+        left: -360px;
+        top: 170px;
+        height: 80px;
+        font-weight: 500;
+        z-index: 9000;
+        font-size: 20px;
     }
     
     .container-main{
         top: 2070px;
-        height: 1900px;
+        height: 390px;
         
     }
-    .cont{
-        display: flex;
-        flex-direction: column;
-        opacity: 1;
+    .tns-controls{
+        left: 335px;
     }
-    #next-button{
-        left: 355px;
+    .tns-nav{
+        left: 370px;
     }
-    .cont img {
-        width: 380px;
-        height: 270px;
-        left: -30px;
-      
-    }
-    .eightV{
-        display: none;
-    }
-    
-    #next-button{
-        display: none;
-    }
-    #prev-button{
-        display: none;
-    }
-    
     .instagram{
-        top: 2100px;
-        height: 1110px;
+        top: 2070px;
+        height: 350px;
     }
     .inst{
         height: 60px;
     }
     .inst img{
-        width: 45px;
-        height: 45px;
-        right: 10px;
+        width: 60px;
+        height: 60px;
+        top: -20px;
+        right: -100px;
     }
     .inst h3{
         position: relative;
-        left: 40px;
-        bottom: 70px;
-        font-size: 25px;
+        left: 180px;
+        bottom: 90px;
+        font-size: 60px;
     }
     .post{
-        display: flex;
-        flex-direction: column;
-        left: -10px;
-        margin-bottom: 5px;
+     
+        left: -20px;
+    bottom: 60px;
     }
+   .post img{
+    
+    width: 200px ;
+      height: 200px;
+   }
     .follow{
-        top: 1060px;
-        left: 70px;
+        top: 290px;
+        left: 330px;
         background:  rgb(195, 195, 195);
     }
     .perguntas{
-        top: 2120px;
+        top: 2100px;
         height: 1000px;
        left: 5px;
     }
     .perguntas h1{
-       left: 10px;
+       left: 260px;
+       bottom: 20px;
     }
     .sobrenos{
-        top: 2000px;
-        height: 660px;
+        top: 1750px;
+        height: 460px;
     }
     .sobrenos div{
         display: flex;
@@ -2559,22 +1801,22 @@ body{
         left: 175px;
     }
     .atendimento{
-        left: 200px;
-        bottom: -60px;
+        left: 600px;
+        bottom: 240px;
     }
     .atendimento h2{
-        left: -130px;
+        left: -190px;
     }
     .atendimento h4{
         left: -140px;
     }
     .atendimento a{
-        left: -110px;
-        top: 120px;
+        left: -130px;
+        top: 140px;
         background:  rgb(195, 195, 195);
     }
     .copyright{
-        top: 2000px;
+        top: 1750px;
         height: 100px;
     }
-}
+    }
