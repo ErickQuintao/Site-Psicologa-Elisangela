@@ -1,13 +1,11 @@
 
 body{
+    overflow-x: hidden;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
-    overflow-y: pointer 30px black;
     margin: 0;
     padding: 0;
-    background: rgb(230, 230, 250) !important;
-  
+    background: white !important;
 }
 header{
     background: white;
@@ -101,7 +99,7 @@ header{
     color:black;
 }
 .master{
-     background: rgb(230, 230, 250);
+     background: white;
     position: relative;
     top: -5px;
 }
@@ -139,7 +137,6 @@ left: -30px;
     font-size: 18px;
     bottom: 20px;
     border-radius: 40px;
-
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
 }
 .agende-whatsapp a{
@@ -239,7 +236,7 @@ border-radius: 20px;
     position: relative;
     top: 30px;
     border-radius: 20px;
-    left: 100px;
+    left: 7%;
     margin-right: 60px;
     padding-left: 20px;
     border: 1px solid black;
@@ -251,19 +248,11 @@ border-radius: 20px;
 }
 .consultas:hover{
     box-shadow: none;
-    left: 95px;
-    background:  rgb(195, 195, 195);
 }
-s
-.consultas img{
-    position: absolute;
 
-  left: 100px;
-  border-radius: 20px;
-}
 .consultas h1{
     position: relative;
-    left: 70px;
+    left: 120px;
     bottom: 10px;
     font-size: 40px;
     color: white;
@@ -271,13 +260,13 @@ s
 }
 .fotoConver{
     position: relative;
-    left: 70px;
+    left: 43%;
     border-radius: 20px;
 }
 .consultas p{
     position: relative;
     width: 380px;
-    left: 70px;
+    margin: auto;
     bottom: 20px;
     font-size: 18px;
 }
@@ -287,11 +276,12 @@ s
     text-decoration: none;
     color: black;
     padding: 5px;
-    width: 300px;
+    width: 430px;
     left: 90px;
     bottom: 10px;
     background:   rgb(195, 195, 195);
     border-radius: 30px;
+    border: 1px solid rgb(180, 180, 180);
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -305,9 +295,10 @@ s
 
 .cons:hover{
     background:  rgb(195, 195, 195);
-   
+  
     border: 1px solid whitesmoke;
 }
+
 .con2{
     top: 0px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
@@ -316,9 +307,10 @@ s
     text-decoration: none;
     color: black;
     padding: 5px;
-    width: 300px;
+    width: 430px;
     left: 90px;
    top:45px;
+   border: 1px solid rgb(180, 180, 180);
     background:   rgb(195, 195, 195);
     border-radius: 30px;
 }
@@ -342,11 +334,6 @@ s
     height: 40px;
    
 }
-
-
-
-
-
 .adultos{
     z-index: 9990;
 }
@@ -370,8 +357,9 @@ s
     height: 800px;
     background:  rgb(195, 195, 195);
    top: 720px;
-   right: 67px;
+   right: 84px;
    z-index: 9899;
+   border: 1px solid gray;
 }
 .img-quem-sou-eu img{
     position: relative;
@@ -407,12 +395,9 @@ s
     box-shadow: none;
     border: 1px solid whitesmoke;
 }
-.quemwhatsapp span:hover {
+.quem-whatsapp span:hover {
     position: relative;
- 
     font-size: 28px;
-    left: 10px;
- 
 }
 .quem-a{
     position: relative;
@@ -453,19 +438,19 @@ s
     position: relative;
     top: 10px;
     width: 80%;
-    left: 130px;
+    left: 170px;
     height: 500px;
 }
 .parte1 h2{
     position: relative;
-    left: 540px;
+    left: 700px;
     color: black;
     bottom: 480px;
     font-size: 20px;
 }
 .parte1 h1{
     position: relative;
-    left: 450px;
+    left: 600px;
     bottom: 490px;
     font-size: 50px;
     color: black;
@@ -473,7 +458,7 @@ s
 .parte1 p{
     position: relative;
     width: 50%;
-    left: 420px;
+    left: 500px;
     font-size: 20px;
     bottom: 510px;
     color:  black;
@@ -482,7 +467,7 @@ s
 .parte2{
     position: relative;
     bottom: 70px;
-    left: 180px;
+    left: 21%;
 }
 .divtwo{
     display: flex;
@@ -606,7 +591,8 @@ s
     position: relative;
     border-radius: 20px;
     width: 100px;
-    margin-left: 20px;
+    left: 185px;
+    margin-left: 30px;
     border: none;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
     border: none;
@@ -618,7 +604,7 @@ s
 .tns-nav{
     
     position: relative;
-    left: 550px;
+    left: 770px;
     width: 400px;
     height: 30px;
     display: flex;
@@ -760,15 +746,13 @@ top: 90px;
     bottom: 5px;
     text-decoration: none;
     
-    
    
 }
 .post img{
     position: relative;
     width: 300px;
     height: 250px;
-    left: 70px;
-   
+    left: 200px;
 }
 
 .post1{
@@ -802,7 +786,7 @@ top: 90px;
 .follow{
     position: absolute;
    top: 350px;
-   right: 590px;
+   right: 685px;
     width: 250px;
     border-radius: 20px;
     height: 40px;
@@ -941,9 +925,13 @@ height: 40px;
 
 /* celulares*/
 @media (min-width:270px) and  (max-width: 550px){
-body{
+ html{
+    overflow-x: hidden !important;
+ }
+    body{
     width: 100%;
     height: 100%;
+    margin: 0;
 }
     .fixed-what{
     position: fixed !important;
@@ -951,7 +939,7 @@ body{
 }
 .fixed-what a {
     position: fixed !important;
-    top: 36% !important;
+    top: 86% !important;
     left: 330px;
     z-index: 10100;
 }
@@ -967,33 +955,35 @@ body{
     right: 7px;
 }
 #header-h2{
-    font-size: 20px;
-   width: 100px;
-   bottom: 50px;
-    left:160px;
+    font-size: 14px;
+   width: 60px;
+   bottom: 40px;
+    left: 40%;
 }
 #h-a img{
     width: 30px;
     height: 30px;
-    bottom:100px;
-  left: 280px;
+    bottom:90px;
+  left: 268px;
 }
 #h-a p{
-    left: 315px;
-    bottom: 130px;
-    font-size: 16px;
+    left: 300px;
+    bottom: 115px;
+    font-size: 13px;
 }
 .imgsEli{
-    width: 90%;
-    height: 250px;
+    width: 96%;
+    height: 40%;
     top: 20px;
     left:  5px;
 }
 .blocobranco{
     top: 40px;
     width: 370px;
-    left: -5px;
+    left: -4px;
     height: 330px;
+    margin: auto;
+   
 }
 .crp{
     font-size: 20px;
@@ -1008,9 +998,7 @@ body{
 .h3-ter{
     font-size: 15px;
     top: 1px;
-
     left: 60PX;
-   
 }
 .list-p{
     font-size: 13px;
@@ -1043,21 +1031,18 @@ body{
     left: 50px;
 }
 .tipo-consulta{
-    width: 101%;
+   
     display: flex;
     flex-direction: column;
-    left: -1%;
 }
 
 .consultas{
+    top: 60px;
     width: 350px;
-    height: 650px;
-    z-index: 9997;
-    left: 20px;
-    margin-top: 30px;
-}
-.consultas:hover{
-    left: 20px;
+    height: 700px;
+    left: 3%;
+   top: 100px;
+    margin-bottom: 20px;
 }
 .fotoConver{
     position: relative;
@@ -1070,14 +1055,14 @@ body{
 }
 .consultas p{
     width: 300px;
-    left: 20px;
+    left: 10px;
 }
 .con{
-    width: 240px;
+    width: 280px;
     height: 45px;
-    bottom: 30px;
+    bottom: 17px;
     background:  rgb(195, 195, 195);
-    left: 40px;
+    left: 20px;
     box-shadow: none;
 }
 
@@ -1091,10 +1076,10 @@ body{
 .con2{
     position: relative;
     display: inline-block;
-    width: 240px;
+    width: 280px;
     height: 45px;
-   top: -20px;
-   left: 40px;
+   top: -17px;
+   left: 20px;
     background:  rgb(195, 195, 195);
 }
 .imgcon2{
@@ -1106,9 +1091,9 @@ body{
 }
 .quem-eu-sou{
     position: absolute;
-    top: 1400px;
-    height: 1300px;
-    right: -3px;
+    top: 1410px;
+    height: 1450px;
+    right: 5%;
 }
 .img-quem-sou-eu{
     position: relative;
@@ -1118,7 +1103,7 @@ body{
     top: 20px;
     width: 280px;
     left: 40px;
-    height: 300px;
+    height: 460px;
 }
 .info{
     top: 500px;
@@ -1126,15 +1111,15 @@ body{
 .info h3{
     position: relative;
     font-size: 20px;
-    bottom: 470px;
-    right: 700px;
+    bottom: 320px;
+    right: 700PX;
     color: white;
 }
 .info h1{
     position: relative;
     font-size: 30px;
     width: 300px;
-    bottom: 470px;
+    bottom: 320px;
     right: 700px;
     color: white;
 }
@@ -1142,7 +1127,7 @@ body{
     position: relative;
     font-size: 20px;
     width: 300px;
-    bottom: 470px;
+    bottom: 320px;
     right: 700px;
     font-weight: 500;
 }
@@ -1152,24 +1137,23 @@ body{
 }
 .cognitivo h2{
     position: relative;
-    left: -640px;
-    top: -470px;
-    width: 50%;
+    left: -660px;
+    top: -330px;
+    width: 250px;
     color: white;
 }
 .cognitivo p{
     position: relative;
-    top: -470px;
+    top: -330px;
     left: -700px;
-    width: 350px;
+    width: 300px;
     color: white;
 }
 .quem-whatsapp{
-   
     width: 230px;
     height: 50px;
-    left: -660px;
-    bottom: 230px;
+    left: -680px;
+    bottom: 70px;
 }
 .quem-whatsapp a span{
   
@@ -1184,7 +1168,7 @@ body{
     top: -500px;
 }
 .vantagens{
-    top: 2000px;
+    top: 2160px;
     height: 1350px;
 }
 .fotosTerapia img{
@@ -1213,30 +1197,39 @@ body{
     left: 30px;
     width: 91%;
     height: 400px;
-    bottom: 370px;
+    bottom: 320px;
     font-weight: 500;
 }.parte2 div{
     width: 300px;
     height: 300px;
     display: flex;
     flex-direction: column;
-  
+   margin: 0%;
 }
 
 .divtwo div{
-    left: -140px;
-    bottom: 140px;
+
+    bottom: 90px;
     margin-bottom: 30px;
 }
 .divtwo div img{
     left: 120px;
 }
+.div1 h2{
+    width: 240px !important;
+   left: 40px !important;
+}
+.div3 h2{
+    left: 20px !important;
+    width: 270px !important;
+}
+
 .divthree div img{
     left: 120px;
 }
 .divthree div{
     left: -140px;
-    bottom: -140px;
+    bottom: -200px;
     margin-bottom: 20px;
 }
 .div3 p{
@@ -1244,19 +1237,20 @@ body{
 
 }
 .container-main{
-    top: 2150px;
+    top: 2370px;
     height: 370px;
     
 }
 .tns-controls{
-    left: 80px;
+    left: -100px;
 }
 .tns-nav{
-    left: 105px;
+    left: 135px;
     bottom: 15px;
+   
 }
 .instagram{
-    top: 2151px;
+    top: 2371px;
     height: 1110px;
     width: 1005;
 }
@@ -1266,18 +1260,21 @@ body{
 .inst img{
     width: 45px;
     height: 45px;
-    right: 10px;
+    margin: 0;
 }
 .inst h3{
     position: relative;
-    left: 40px;
+    left: 80px;
     bottom: 70px;
     font-size: 25px;
 }
 .post{
+    
     display: flex;
     flex-direction: column;
-    left: -35px;
+    
+    left: -34%;
+    
     margin-bottom: 5px;
     top: -28px;
 }
@@ -1287,12 +1284,13 @@ body{
     background:  rgb(195, 195, 195);
 }
 .perguntas{
-    top: 2160px;
+    top: 2380px;
     height: 1000px;
    left: 5px;
 }
 .perguntas h1{
    left: 10px;
+   margin-bottom: 5px;
 }
 .sobrenos{
     top: 2000px;
@@ -1346,6 +1344,9 @@ body{
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }/*desktop*/
 @media (min-width:751px) and  (max-width: 1000px){
+    html{
+        overflow-x: hidden;
+    }
     body{
         width: 100%;
         height: 100%;
