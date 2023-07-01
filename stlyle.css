@@ -472,6 +472,8 @@ border-radius: 20px;
 .divtwo{
     display: flex;
     flex-direction: row;
+    margin-right: 30px;
+    margin-left: 60px;
 }
 .divtwo div {
     background:   rgb(195, 195, 195);
@@ -481,7 +483,6 @@ border-radius: 20px;
     bottom: 30px;
     width: 450px;
     margin-right: 30px;
-    left: 60px;
 }
 .divtwo div img{
     border-radius: 50%;
@@ -508,6 +509,8 @@ border-radius: 20px;
 .divthree{
     display: flex;
     flex-direction: row;
+    margin-right: 30px;
+    margin-left: 60px;
 }
 .divthree div {
     position: relative;
@@ -516,7 +519,7 @@ border-radius: 20px;
     bottom: 10px;
     width: 450px;
     margin-right: 30px;
-    left: 60px;
+    
     background:  rgb(195, 195, 195);
 }
 .divthree div img{
@@ -1204,11 +1207,11 @@ height: 40px;
     height: 300px;
     display: flex;
     flex-direction: column;
-   margin: 0%;
+  position: relative;
+  margin-left: -15px;
 }
 
 .divtwo div{
-
     bottom: 90px;
     margin-bottom: 30px;
 }
@@ -1221,31 +1224,32 @@ height: 40px;
 }
 .div3 h2{
     left: 20px !important;
-    width: 270px !important;
+    width: 290px !important;
 }
 
 .divthree div img{
     left: 120px;
 }
 .divthree div{
-    left: -140px;
+  
     bottom: -200px;
     margin-bottom: 20px;
 }
 .div3 p{
     font-size: 17px !important;
-
+    margin-top: 5px;
 }
+
 .container-main{
     top: 2370px;
     height: 370px;
     
 }
 .tns-controls{
-    left: -100px;
+    left: -130px;
 }
 .tns-nav{
-    left: 135px;
+    left: 105px;
     bottom: 15px;
    
 }
@@ -1273,27 +1277,34 @@ height: 40px;
     display: flex;
     flex-direction: column;
     
-    left: -34%;
-    
+    left: -30%;
+    margin-left: -30px;
     margin-bottom: 5px;
     top: -28px;
 }
 .follow{
     top: 1060px;
-    left: 70px;
+    left: 80px;
     background:  rgb(195, 195, 195);
 }
 .perguntas{
     top: 2380px;
     height: 1000px;
    left: 5px;
+   
 }
 .perguntas h1{
-   left: 10px;
+    width: 50%;
+   left: 20%;
    margin-bottom: 5px;
+   font-weight: 700;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.accordion{
+    top: 70px;
 }
 .sobrenos{
-    top: 2000px;
+    top: 2400px;
     height: 660px;
 }
 .sobrenos div{
@@ -1338,7 +1349,7 @@ height: 40px;
     background:  rgb(195, 195, 195);
 }
 .copyright{
-    top: 2000px;
+    top: 2400px;
     height: 100px;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
@@ -1492,9 +1503,9 @@ height: 40px;
         color: white;
     }
     .con{
-        width: 240px;
+        width: 280px;
         height: 45px;
-        bottom: 30px;
+        bottom: 20px;
         background:  rgb(195, 195, 195);
         left: 200px;
     }
@@ -1508,14 +1519,15 @@ height: 40px;
     .con2{
         position: relative;
         display: inline-block;
-        width: 240px;
+        width: 280px;
         height: 45px;
        top: -20px;
         background:  rgb(195, 195, 195);
         left: 200px;
     }
     .imgcon2{
-        top: -3px;
+        position: relative;
+        top: -3px !important;
         left: 1px;
     }
     .con2 span{
@@ -1639,7 +1651,7 @@ height: 40px;
         bottom: 370px;
         font-weight: 500;
     }.parte2 div div{
-        width: 430px;
+        width: 400px;
         height: 300px;
         display: flex;
         flex-direction: row;
@@ -1651,19 +1663,19 @@ height: 40px;
         border-radius: 20px;
         bottom: 30px;
         margin-right: 30px;
-        left: -475px;
+        left: -520px;
     }
     .divtwo div img{
         border-radius: 50%;
         position: relative;
-        left: 190PX;
+        left: 180PX;
         top: 1PX;
         width: 50PX;
         height: 50px;
     }
     .divtwo div h2{
      min-width: 350px;
-     left: 10px;
+     left: -15px;
      height: 100px;
      top: 45px;
      color: white;
@@ -1673,7 +1685,7 @@ height: 40px;
     .divtwo div p{
       position: relative;
       min-width: 350px;
-        left: -340px;
+        left: -360px;
         top: 140px;
         height: 80px;
         font-weight: 500;
@@ -1685,22 +1697,22 @@ height: 40px;
         border-radius: 20px;
         bottom: 10px;
         margin-right: 30px;
-        left: -475px;
+        left: -520px;
         background:  rgb(195, 195, 195);
     }
     .divthree div img{
         border-radius: 50%;
         position: relative;
-        left: 200PX;
+        left: 180PX;
         top: -1PX;
         width: 50PX;
         height: 50px;
     }
     .divthree  div h2{
         min-width: 350px;
-        left: -20px;
+        left: -15px;
         top: 45px;
-        width: 100%;
+        width: 390px;
         color: white;
         font-weight: 500;
         font-size: 27px;
@@ -1723,7 +1735,7 @@ height: 40px;
         
     }
     .tns-controls{
-        left: 335px;
+        left: 115px;
     }
     .tns-nav{
         left: 370px;
@@ -1748,12 +1760,11 @@ height: 40px;
         font-size: 60px;
     }
     .post{
-     
-        left: -20px;
+       margin-left: 5px;
+        left: -23%;
     bottom: 60px;
     }
    .post img{
-    
     width: 200px ;
       height: 200px;
    }
