@@ -1,4 +1,5 @@
 # Site-Psicologa-Elisangela
+
 <h3>Projeto:Concluido</h3>
 <h2>Tecnologias Usadas: </h2>
 <ul>
@@ -6,16 +7,18 @@
   <li>HTML</li>
   <li>CSS</li>
   <li>BOOTSTRAP</li>
+  <li>Tiny Slider</li>
 </ul>
 <h2>Requisitos Usados:</h2>
 <ul>
   <li>Deve ter um bom desempenho</li>
   <li>Design Bonito</li>
-  <li>Responsivo versao Monitor Grande,desktop, mobile vertical e horizontal</li>
+  <li>Responsivo versao desktop e mobile </li>
+  <li>Rapido</li>
 </ul>
 <h2>DATA</h2>
-<p>Quantos dias demorou:<strong>13 Dias</strong> </p>
-<p>Quantas horas: <strong>39h22min</strong>  </p>
+<p>Quantos dias demorou:<strong>17 Dias</strong> </p>
+<p>Quantas horas: <strong>47h41min</strong>  </p>
 <p>Data Inicio: 15/5/23</p>
 <p>Data fim: 11/06/23 </p>
 <p>15/5-1h</p>
@@ -32,12 +35,17 @@
 <p>9/6-1h26min</p>
 <p>10/6-3h51min</p>
 <p>11/6-5h08min</p>
-
-<img src="fotos-readme\foto1-versao-monitor.jpg">
-<img src="fotos-readme\foto2-versao-monitor.jpg">
-<img src="fotos-readme\foto3-versao-monitor.jpg">
-<img src="fotos-readme\foto4-versao-monitor.jpg">
-<img src="fotos-readme\foto5-versao-monitor.jpg">
-<img src="fotos-readme\foto6-versao-monitor.jpg">
-<img src="fotos-readme\foto7-versao-monitor.jpg">
+<p>28/6-1h38min</p>
+<p>30/6-1h35min</p>
+<p>1/7-1h30min</p>
+<p>2/7-3h36</p>
+<img src="fotos-readme\foto1.png">
+<img src="fotos-readme\foto2.png">
+<img src="fotos-readme\foto3.png">
+<img src="fotos-readme\foto4.png">
+<img src="fotos-readme\foto5.png">
+<img src="fotos-readme\foto6.png">
+<img src="fotos-readme\foto7.png">
+<img src="fotos-readme\foto8.png">
+<img src="fotos-readme\foto9.png">
 <p><strong>OBS:TEM VIDEO DO SITE NA PASTA fotos-readme</strong></p>
