@@ -23,6 +23,9 @@ header{
     
     width: 70px;
     height: 70px;
+    background-color: transparent ;
+    border: none;
+    border-radius: 70%;
 }
 
 #h-a{
@@ -37,12 +40,12 @@ header{
     position: relative;
     width: 40px;
     height: 40px;
-    left: 830px;
+    left: 1080px;
     bottom: 105px;
 }
 #h-a p{
     position: relative;
-     left: 880px;
+     left: 1140px;
      width: 200px;
      height: 30px;
     bottom: 145px;
@@ -138,6 +141,7 @@ left: -30px;
     bottom: 20px;
     border-radius: 40px;
     box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgb(180, 180, 180);
 }
 .agende-whatsapp a{
     text-decoration: white;
@@ -563,7 +567,9 @@ border-radius: 20px;
     height: 110px;
     left: 30px;
 }
-
+.quem-whatsapp{
+    border: 1px solid rgb(180, 180, 180);
+}
 
 .depoimentos{
     position: relative;
@@ -639,7 +645,12 @@ border-radius: 20px;
     height: 400px;
     border: 2px solid black;
 }
-
+.post{
+    left:13% !important;
+}
+.follow{
+    border: 1px solid rgb(180, 180, 180);   
+}
 
 .perguntas{
     position: relative;
@@ -813,7 +824,9 @@ top: 90px;
     text-decoration:  rgb(195, 195, 195);
     border: 1px solid whitesmoke;
 }
-
+.perguntas h1{
+    left: 670px;
+}
 .accordion-header:active{
     border: none;
 }
@@ -903,7 +916,21 @@ height: 40px;
 .atendimento a span img{
     border-radius: 20px;
 }
+.face{
+	left: 40px;
+	border: none;
+	border-radius: 100px;
+		background-color: #3b5998;
 
+}
+.insta{
+	border-radius: 10px;
+	background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,
+	#E1306C,#FD1D1D);
+    width: 30px;
+    height: 30px;
+    left: -440px;
+}
 .copyright{
     background:  rgb(195, 195, 195);
     border-top: 1px solid whitesmoke;
@@ -930,6 +957,8 @@ height: 40px;
 @media (min-width:270px) and  (max-width: 550px){
  html{
     overflow-x: hidden !important;
+    width: 100%;
+    height: 100%;
  }
     body{
     width: 100%;
@@ -942,8 +971,8 @@ height: 40px;
 }
 .fixed-what a {
     position: fixed !important;
-    top: 86% !important;
-    left: 330px;
+    top: 58% !important;
+    left: 300px !important;
     z-index: 10100;
 }
 .fixed-what img{
@@ -982,7 +1011,7 @@ height: 40px;
 }
 .blocobranco{
     top: 40px;
-    width: 370px;
+    width: 350px;
     left: -4px;
     height: 330px;
     margin: auto;
@@ -991,22 +1020,22 @@ height: 40px;
 .crp{
     font-size: 20px;
     
-    left: 70px;
+    left: 50px;
 }
 .h1-psi{
     top: 1px;
-    left: 100px;
+    left: 90px;
     font-size: 22px;
 }
 .h3-ter{
     font-size: 15px;
     top: 1px;
-    left: 60PX;
+    left: 50PX;
 }
 .list-p{
     font-size: 13px;
     top: 1px;
-    left: 90px;
+    left: 70px;
     color: black;
 }
 .list-p img{
@@ -1018,6 +1047,7 @@ height: 40px;
     width: 320px;
     bottom: 10px;
     height: 40px;
+    left:15px;
 }
 .agende-whatsapp span:active {
     font-size: 20px;
@@ -1037,35 +1067,36 @@ height: 40px;
    
     display: flex;
     flex-direction: column;
+    height: 0px;
 }
 
 .consultas{
     top: 60px;
-    width: 350px;
-    height: 700px;
+    width: 320px;
+    height: 750px;
     left: 3%;
    top: 100px;
     margin-bottom: 20px;
 }
 .fotoConver{
     position: relative;
-   left: 120px;
+   left: 100px;
 
 }
 .consultas h1{
     font-size: 30px;
-    left: 30PX;
+    left: 15PX;
 }
 .consultas p{
-    width: 300px;
-    left: 10px;
+    width: 280px;
+    left: -5px;
 }
 .con{
     width: 280px;
     height: 45px;
     bottom: 17px;
     background:  rgb(195, 195, 195);
-    left: 20px;
+    left: -3px;
     box-shadow: none;
 }
 
@@ -1082,12 +1113,12 @@ height: 40px;
     width: 280px;
     height: 45px;
    top: -17px;
-   left: 20px;
+   left: -3px;
     background:  rgb(195, 195, 195);
 }
 .imgcon2{
-    top: -3px;
-    left: 1px;
+    top: -4px !important;
+    left: 3px !important;
 }
 .con2 span{
     font-size: 22px;
@@ -1171,8 +1202,9 @@ height: 40px;
     top: -500px;
 }
 .vantagens{
-    top: 2160px;
+    top: 2850px;
     height: 1350px;
+    right: 2px;
 }
 .fotosTerapia img{
     top: 1px;
@@ -1185,14 +1217,14 @@ height: 40px;
     width: 400px;
     height: 10px;
     font-size: 17px;
-  left: 30px;
+  left: 45px;
    top: -390px;
 }
 .parte1 h1{
     position: absolute;
     font-size: 32px;
     width: 400px;
-   left: 10px;
+   left: 25px;
    bottom: 1270px;
 }
 .parte1 p{
@@ -1200,7 +1232,7 @@ height: 40px;
     left: 30px;
     width: 91%;
     height: 400px;
-    bottom: 320px;
+    bottom: 360px;
     font-weight: 500;
 }.parte2 div{
     width: 300px;
@@ -1241,7 +1273,7 @@ height: 40px;
 }
 
 .container-main{
-    top: 2370px;
+    top: 3080px;
     height: 370px;
     
 }
@@ -1254,8 +1286,8 @@ height: 40px;
    
 }
 .instagram{
-    top: 2371px;
-    height: 1110px;
+    top: 3081px;
+    height: 880px;
     width: 1005;
 }
 .inst{
@@ -1277,18 +1309,18 @@ height: 40px;
     display: flex;
     flex-direction: column;
     
-    left: -30%;
+    left: -30% !important;
     margin-left: -30px;
     margin-bottom: 5px;
     top: -28px;
 }
 .follow{
-    top: 1060px;
+    top: 830px;
     left: 80px;
     background:  rgb(195, 195, 195);
 }
 .perguntas{
-    top: 2380px;
+    top: 3090px;
     height: 1000px;
    left: 5px;
    
@@ -1304,8 +1336,8 @@ height: 40px;
     top: 70px;
 }
 .sobrenos{
-    top: 2400px;
-    height: 660px;
+    top: 2900px;
+    height: 580px;
 }
 .sobrenos div{
     display: flex;
@@ -1327,7 +1359,7 @@ height: 40px;
     top: -45px;
 }
 .linksrapidos{
-    bottom: -10px;
+    bottom:45px;
     left: -50px;
 }
 .linksrapidos h2{
@@ -1335,22 +1367,24 @@ height: 40px;
 }
 .atendimento{
     left: 200px;
-    bottom: -60px;
+    bottom: 20px;
 }
 .atendimento h2{
     left: -130px;
 }
 .atendimento h4{
+    top: 60px !important;
     left: -140px;
 }
 .atendimento a{
     left: -110px;
     top: 120px;
     background:  rgb(195, 195, 195);
+    border: 1px solid rgb(180, 180, 180);
 }
 .copyright{
-    top: 2400px;
-    height: 100px;
+    top: 2900px;
+    height: 60px;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }/*desktop*/
@@ -1376,10 +1410,9 @@ height: 40px;
         z-index: 10100;
     }
 
-    .fixed-what img{
+    .fixed-what a img{
         width: 70px;
         height: 70px;
-       
     }
   .container{
     height: 700px;
@@ -1403,7 +1436,7 @@ height: 40px;
       left: 620px;
     }
     #h-a p{
-        left: 680px;
+        left: 670px;
         bottom: 150px;
         font-size: 25px;
     }
@@ -1761,7 +1794,6 @@ height: 40px;
     }
     .post{
        margin-left: 5px;
-        left: -23%;
     bottom: 60px;
     }
    .post img{
@@ -1831,4 +1863,5 @@ height: 40px;
         top: 1750px;
         height: 100px;
     }
+   
     }
