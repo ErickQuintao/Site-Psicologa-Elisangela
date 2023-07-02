@@ -14,8 +14,8 @@ header{
     position: fixed;
     width: 50px;
     height: 50px;
-    left: 1300px;
-    top: 600px;
+    left: 1200px;
+    top: 550px;
     z-index: 10000;
     
 }
@@ -33,7 +33,6 @@ header{
     width: 300px !important;
     height: 50px;
     bottom: 200px;
-    
     text-decoration: none;
 }
 #h-a img{
@@ -43,14 +42,14 @@ header{
     left: 1080px;
     bottom: 105px;
 }
-#h-a p{
+ .whats p #h-a {
     position: relative;
      left: 1140px;
      width: 200px;
      height: 30px;
-    bottom: 145px;
+    bottom: 140px;
+    background:transparent;
     text-decoration: none;
-   
     color:black;
     font-weight: 700;
     font-size: 25px;
@@ -217,8 +216,8 @@ border-radius: 20px;
 
     border-radius: 20px;
 
-    width: 32%;
-    height: 430px;
+    width: 35%;
+    height: 500px;
     bottom: 500px;
     left: 2%;
    
@@ -256,7 +255,7 @@ border-radius: 20px;
 
 .consultas h1{
     position: relative;
-    left: 120px;
+    left: 50px;
     bottom: 10px;
     font-size: 40px;
     color: white;
@@ -264,7 +263,7 @@ border-radius: 20px;
 }
 .fotoConver{
     position: relative;
-    left: 43%;
+    left: 40%;
     border-radius: 20px;
 }
 .consultas p{
@@ -281,8 +280,8 @@ border-radius: 20px;
     color: black;
     padding: 5px;
     width: 430px;
-    left: 90px;
-    bottom: 10px;
+    left: 10px;
+    bottom: 8px !important;
     background:   rgb(195, 195, 195);
     border-radius: 30px;
     border: 1px solid rgb(180, 180, 180);
@@ -312,7 +311,7 @@ border-radius: 20px;
     color: black;
     padding: 5px;
     width: 430px;
-    left: 90px;
+    left: 10px;
    top:45px;
    border: 1px solid rgb(180, 180, 180);
     background:   rgb(195, 195, 195);
@@ -442,19 +441,19 @@ border-radius: 20px;
     position: relative;
     top: 10px;
     width: 80%;
-    left: 170px;
+    left: 130px;
     height: 500px;
 }
 .parte1 h2{
     position: relative;
-    left: 700px;
+    left: 500px;
     color: black;
     bottom: 480px;
     font-size: 20px;
 }
 .parte1 h1{
     position: relative;
-    left: 600px;
+    left: 400px;
     bottom: 490px;
     font-size: 50px;
     color: black;
@@ -462,7 +461,7 @@ border-radius: 20px;
 .parte1 p{
     position: relative;
     width: 50%;
-    left: 500px;
+    left: 390px;
     font-size: 20px;
     bottom: 510px;
     color:  black;
@@ -487,6 +486,7 @@ border-radius: 20px;
     bottom: 30px;
     width: 450px;
     margin-right: 30px;
+    right:130px;
 }
 .divtwo div img{
     border-radius: 50%;
@@ -523,7 +523,7 @@ border-radius: 20px;
     bottom: 10px;
     width: 450px;
     margin-right: 30px;
-    
+    right:130px;
     background:  rgb(195, 195, 195);
 }
 .divthree div img{
@@ -587,7 +587,7 @@ border-radius: 20px;
 }
 .tns-controls{
     position: relative;
-    left: 550px;
+    left: 320px;
     border-radius: 20px;
     width: 400px;
     display: flex;
@@ -613,7 +613,7 @@ border-radius: 20px;
 .tns-nav{
     
     position: relative;
-    left: 770px;
+    left: 550px;
     width: 400px;
     height: 30px;
     display: flex;
@@ -646,10 +646,11 @@ border-radius: 20px;
     border: 2px solid black;
 }
 .post{
-    left:13% !important;
+    left:1% !important;
 }
 .follow{
     border: 1px solid rgb(180, 180, 180);   
+    left: 540px;
 }
 
 .perguntas{
@@ -671,7 +672,7 @@ border-radius: 20px;
    bottom: 10px;
    width: 100%;
    margin: 0;
-    left: 500px;
+    left: 100px;
     width: 600px;
     height: 30px;
     font-size: 30px;
@@ -733,11 +734,10 @@ border-radius: 20px;
     border-radius: 30px;
     bottom: 25px;
 }
-.inst h3{
+h3 .inst{
     position: relative;
-    left: 100px;
-    bottom: 90px;
-    
+    left: 150px;
+    top:-60px;
     color: white;
     font-size: 40px;
 }
@@ -825,7 +825,7 @@ top: 90px;
     border: 1px solid whitesmoke;
 }
 .perguntas h1{
-    left: 670px;
+    left: 460px;
 }
 .accordion-header:active{
     border: none;
@@ -929,7 +929,7 @@ height: 40px;
 	#E1306C,#FD1D1D);
     width: 30px;
     height: 30px;
-    left: -440px;
+    left: -320px;
 }
 .copyright{
     background:  rgb(195, 195, 195);
@@ -990,18 +990,18 @@ height: 40px;
     font-size: 14px;
    width: 60px;
    bottom: 40px;
-    left: 40%;
+    left: 36%;
 }
 #h-a img{
     width: 30px;
     height: 30px;
     bottom:90px;
-  left: 268px;
+  left: 245px;
 }
-#h-a p{
-    left: 300px;
+.whats p #h-a{
+    left: 280px;
     bottom: 115px;
-    font-size: 13px;
+    font-size: 15px;
 }
 .imgsEli{
     width: 96%;
@@ -1246,6 +1246,7 @@ height: 40px;
 .divtwo div{
     bottom: 90px;
     margin-bottom: 30px;
+    left:0px;
 }
 .divtwo div img{
     left: 120px;
@@ -1263,7 +1264,7 @@ height: 40px;
     left: 120px;
 }
 .divthree div{
-  
+    left:0px;
     bottom: -200px;
     margin-bottom: 20px;
 }
@@ -1297,12 +1298,18 @@ height: 40px;
     width: 45px;
     height: 45px;
     margin: 0;
+    left:-20px;
 }
 .inst h3{
     position: relative;
     left: 80px;
     bottom: 70px;
     font-size: 25px;
+}
+.nomeinsta{
+    left:60px !important;
+    top:-40px !important;
+    font-size:30px !important;
 }
 .post{
     
@@ -1384,7 +1391,7 @@ height: 40px;
 }
 .copyright{
     top: 2900px;
-    height: 60px;
+    height: 70px;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 }/*desktop*/
